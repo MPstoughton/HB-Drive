@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4ce9ec31-635c-40cc-9167-4db88309605c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "D_RAW"
+		(shape input)
+		(at 139.7 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "503406bb-354e-4e48-b2c2-fe1c6007e51e")
+	)
+	(hierarchical_label "Carrier"
+		(shape input)
+		(at 139.7 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1b5c7a9-a9d6-4474-8fe2-487a7ebccc7d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 139.7 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb7f0889-eec9-46fb-93fe-19bbc6674753")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 154.94 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecc563d3-0ad7-43ec-a8ae-76e75fe4e2f9")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 139.7 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff539551-fbd8-4f65-a129-f31478c39158")
+	)
+)

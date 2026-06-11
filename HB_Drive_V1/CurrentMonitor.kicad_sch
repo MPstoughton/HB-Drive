@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "33f6f07f-6abd-4873-bd03-d187afb7de4b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 88.9 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10638ca8-368f-4c7d-996d-acf8b3ba9d95")
+	)
+	(hierarchical_label "I_SENSE"
+		(shape input)
+		(at 88.9 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f50d8db-ecd8-41ea-ac94-d563d20b93a1")
+	)
+	(hierarchical_label "PWM_RAW"
+		(shape input)
+		(at 88.9 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67048e90-1a61-4361-8f94-21eac40f1e8e")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 88.9 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85163634-6bae-4203-bdaa-f8e38aee8a4f")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 106.68 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c72741ff-d3f0-4fd5-bc3f-757c9856502b")
+	)
+)

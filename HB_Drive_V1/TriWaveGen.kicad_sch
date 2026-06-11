@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "75779512-603a-4677-a683-5a42f6db8b76")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Triangle Wave"
+		(shape output)
+		(at 139.7 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7757a904-3e71-4657-af52-fa8f6b989689")
+	)
+)

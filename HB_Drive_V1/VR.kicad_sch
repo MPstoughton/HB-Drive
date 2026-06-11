@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "949bb793-f05a-43f6-9432-bfe0824194e6")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "V_REF"
+		(shape input)
+		(at 127 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1691a7d3-664c-4846-9f24-f10e2c0c64ad")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 127 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26b226a7-ea76-4f6c-8e14-929a8ccdcfbe")
+	)
+	(hierarchical_label "V_SINE"
+		(shape input)
+		(at 127 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cc8c35a-4902-4e90-a71c-56b44f7aa761")
+	)
+	(hierarchical_label "D"
+		(shape output)
+		(at 139.7 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a1da679-dfd6-46a3-812a-b7e13b5ba160")
+	)
+	(hierarchical_label "V_BNC"
+		(shape input)
+		(at 127 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5392dbb1-e37e-4b82-a294-1637ca66c45d")
+	)
+	(hierarchical_label "V_SENSE"
+		(shape input)
+		(at 127 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dcba295-dc6f-4f11-b627-289c874bd89c")
+	)
+	(hierarchical_label "V_COMMAND"
+		(shape input)
+		(at 127 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92b6a262-aa7e-42fd-b058-a70ce8d6c175")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 127 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba131efa-3944-4f32-9e72-7df7ac95d26b")
+	)
+)
