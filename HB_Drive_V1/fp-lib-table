@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PV36W104C01B00") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/PV36W104C01B00") (options "") (descr ""))
+)

@@ -2,36 +2,12 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "4ce9ec31-635c-40cc-9167-4db88309605c")
+	(uuid "b024040d-8116-46af-a0b8-b50b9dd5e9b2")
 	(paper "A4")
 	(lib_symbols)
-	(global_label "-15V"
-		(shape passive)
-		(at 139.7 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06844e89-b36b-4897-8043-1e03c4148c53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6539 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "+15V"
 		(shape passive)
-		(at 139.7 82.55 0)
+		(at 120.65 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -39,9 +15,9 @@
 			)
 			(justify left)
 		)
-		(uuid "83352b24-46b7-4f06-88a9-6a648748b6e6")
+		(uuid "7c6e3316-52a7-4111-a66c-d266322918c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6539 82.55 0)
+			(at 127.6039 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53,37 +29,39 @@
 			)
 		)
 	)
-	(hierarchical_label "D_Cmd"
-		(shape input)
-		(at 139.7 76.2 0)
+	(global_label "-15V"
+		(shape passive)
+		(at 120.65 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "503406bb-354e-4e48-b2c2-fe1c6007e51e")
+		(uuid "89f1681b-3c15-4169-bf34-d3d809b7d50d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.6039 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "Carrier"
-		(shape input)
-		(at 139.7 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1b5c7a9-a9d6-4474-8fe2-487a7ebccc7d")
-	)
-	(hierarchical_label "H_Cmd"
 		(shape output)
-		(at 154.94 76.2 0)
+		(at 120.65 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ecc563d3-0ad7-43ec-a8ae-76e75fe4e2f9")
+		(uuid "502f19ff-acf6-41b4-8f46-1e5045a437ba")
 	)
 )

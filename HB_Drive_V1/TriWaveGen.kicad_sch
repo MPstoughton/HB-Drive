@@ -16,4 +16,26 @@
 		)
 		(uuid "7757a904-3e71-4657-af52-fa8f6b989689")
 	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 139.7 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b82e4f6b-56ff-4a41-a782-8899027cd154")
+	)
+	(hierarchical_label "Vin"
+		(shape output)
+		(at 139.7 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9c3b910-709f-4e4d-b86e-73fb2ebbef1b")
+	)
 )

@@ -5,42 +5,68 @@
 	(uuid "949bb793-f05a-43f6-9432-bfe0824194e6")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "V_REF"
+	(global_label "+15V"
+		(shape passive)
+		(at 120.65 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b9bfdfe-42be-46e9-b4a1-9d1e080e839e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.6039 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "-15V"
+		(shape passive)
+		(at 120.65 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c267829-e8b4-4482-a81f-7c1ea707fa8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.6039 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "Int_AC_Ref"
 		(shape input)
-		(at 127 66.04 180)
+		(at 114.3 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1691a7d3-664c-4846-9f24-f10e2c0c64ad")
+		(uuid "1583f648-fb8e-405e-98b7-2a198c0ab661")
 	)
-	(hierarchical_label "Vin"
-		(shape input)
-		(at 127 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26b226a7-ea76-4f6c-8e14-929a8ccdcfbe")
-	)
-	(hierarchical_label "V_SINE"
-		(shape input)
-		(at 127 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2cc8c35a-4902-4e90-a71c-56b44f7aa761")
-	)
-	(hierarchical_label "D"
+	(hierarchical_label "I_Cmd"
 		(shape output)
-		(at 139.7 67.31 0)
+		(at 154.94 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49,20 +75,20 @@
 		)
 		(uuid "3a1da679-dfd6-46a3-812a-b7e13b5ba160")
 	)
-	(hierarchical_label "V_BNC"
+	(hierarchical_label "Ext_Ref"
 		(shape input)
-		(at 127 68.58 180)
+		(at 114.3 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5392dbb1-e37e-4b82-a294-1637ca66c45d")
+		(uuid "439e1a8a-0e93-4421-aebe-47fe7fbb0c85")
 	)
-	(hierarchical_label "V_SENSE"
+	(hierarchical_label "V_Fdbk"
 		(shape input)
-		(at 127 74.93 180)
+		(at 114.3 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,26 +97,15 @@
 		)
 		(uuid "5dcba295-dc6f-4f11-b627-289c874bd89c")
 	)
-	(hierarchical_label "V_COMMAND"
+	(hierarchical_label "Int_DC_Ref"
 		(shape input)
-		(at 127 63.5 180)
+		(at 114.3 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "92b6a262-aa7e-42fd-b058-a70ce8d6c175")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 127 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba131efa-3944-4f32-9e72-7df7ac95d26b")
+		(uuid "745ce9ab-39bd-4626-af4f-28bd11e2e2ae")
 	)
 )
