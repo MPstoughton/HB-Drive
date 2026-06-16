@@ -338,6 +338,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Add adjustability to 555 timer period - target is factor of 10 freq, 10 kHz to 100 kHz\n"
+		(exclude_from_sim no)
+		(at 116.332 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5a1ef8e-529f-4744-a346-54db27421b58")
+	)
+	(text "Change sheet name to \"Protection\"\n"
+		(exclude_from_sim no)
+		(at 195.834 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cae6a7da-dab7-4465-a353-fa1fa5c66482")
+	)
+	(text "add deadtime circit with potentiometer"
+		(exclude_from_sim no)
+		(at 152.4 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd598de1-567a-4dc7-af4e-e116ac07ebcf")
+	)
 	(junction
 		(at 95.25 73.66)
 		(diameter 0)
@@ -757,7 +787,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Carrier" input
+		(pin "Carrier" output
 			(at 101.6 114.3 0)
 			(uuid "a8bc5cd4-edb9-49aa-bdc1-318a203dfadf")
 			(effects
@@ -857,7 +887,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -878,7 +907,7 @@
 			)
 		)
 		(property "Sheetfile" "CurrentMonitor.kicad_sch"
-			(at 177.8 89.4846 0)
+			(at 177.8 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

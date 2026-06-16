@@ -5,6 +5,16 @@
 	(uuid "14fd4a9a-3334-4d72-b0c0-78a0a3ab8da9")
 	(paper "A4")
 	(lib_symbols)
+	(text "Add deadtime circuit with 10 k potentiometer"
+		(exclude_from_sim no)
+		(at 102.616 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b12aae5-758c-4ff8-b4ea-e0260bf9634e")
+	)
 	(global_label "-15V"
 		(shape passive)
 		(at 88.9 109.22 0)
