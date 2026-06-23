@@ -648,7 +648,7 @@
         "uuid": "a9b54c89-4c8e-4c90-8a0d-ec2009e369b7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R6-10,R28-29,R51,R57,R70-71,R73-74,R76-92,J1,J9-14,D5-7,#PWR56,#PWR83,#PWR93-118,TP15,TP21-23,U21-23,C39,C42-50",
     "variants": []
   },
   "sheets": [
@@ -665,16 +665,16 @@
       "Inner Current Regulator"
     ],
     [
-      "7c75a910-53e0-44bd-8074-92cc670356b3",
-      "Current Monitor"
-    ],
-    [
       "36bf4344-87a7-4fde-83e1-853a2de14cdf",
       "Dead Time Injector"
     ],
     [
       "ddec5c9b-01ea-44af-a206-8cb280d1ab2e",
       "PWM Comparator"
+    ],
+    [
+      "cc6479ca-50da-4dbe-9d7f-2e2b1563a3b2",
+      "Protection"
     ],
     [
       "28e2d9d3-ebce-4623-8c7e-52f93025d826",

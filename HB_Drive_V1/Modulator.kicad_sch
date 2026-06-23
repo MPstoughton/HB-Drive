@@ -348,26 +348,6 @@
 		)
 		(uuid "b5a1ef8e-529f-4744-a346-54db27421b58")
 	)
-	(text "Change sheet name to \"Protection\"\n"
-		(exclude_from_sim no)
-		(at 195.834 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cae6a7da-dab7-4465-a353-fa1fa5c66482")
-	)
-	(text "add deadtime circit with potentiometer"
-		(exclude_from_sim no)
-		(at 152.4 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dd598de1-567a-4dc7-af4e-e116ac07ebcf")
-	)
 	(junction
 		(at 95.25 73.66)
 		(diameter 0)
@@ -468,7 +448,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 74.93) (xy 228.6 74.93)
+			(xy 217.17 74.93) (xy 222.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -568,7 +548,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 77.47) (xy 228.6 77.47)
+			(xy 217.17 77.47) (xy 222.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +590,7 @@
 	)
 	(hierarchical_label "G_Lower_Cmd"
 		(shape output)
-		(at 228.6 77.47 0)
+		(at 222.25 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -632,7 +612,7 @@
 	)
 	(hierarchical_label "G_Upper_Cmd"
 		(shape output)
-		(at 228.6 74.93 0)
+		(at 222.25 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -663,7 +643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ad17e52-fabd-4c84-a12c-0e649e9b089b")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 87.376 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -744,7 +724,7 @@
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -882,11 +862,12 @@
 	)
 	(sheet
 		(at 177.8 63.5)
-		(size 38.1 25.4)
+		(size 39.37 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -894,8 +875,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "7c75a910-53e0-44bd-8074-92cc670356b3")
-		(property "Sheetname" "Current Monitor"
+		(uuid "cc6479ca-50da-4dbe-9d7f-2e2b1563a3b2")
+		(property "Sheetname" "Protection"
 			(at 177.8 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -906,8 +887,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CurrentMonitor.kicad_sch"
-			(at 177.8 59.182 0)
+		(property "Sheetfile" "Protection.kicad_sch"
+			(at 177.8 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -917,9 +898,19 @@
 				(justify left top)
 			)
 		)
+		(pin "+10V_Ref" input
+			(at 177.8 80.01 180)
+			(uuid "5d36533d-53c3-4348-98e3-3bec5403d52d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "G_Lower_Cmd_in" input
 			(at 177.8 77.47 180)
-			(uuid "f5e3bab7-c73f-4877-be2d-ee9af3d29a4b")
+			(uuid "9a0f5886-c257-4606-8a2b-98ad60724b6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,8 +919,8 @@
 			)
 		)
 		(pin "G_Lower_Cmd_Out" output
-			(at 215.9 77.47 0)
-			(uuid "b6b830d5-5e45-41b7-a174-1d54e361d2d2")
+			(at 217.17 77.47 0)
+			(uuid "b1d90f29-5e90-446d-a1aa-b0894f8050b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +930,7 @@
 		)
 		(pin "G_Upper_Cmd_in" input
 			(at 177.8 74.93 180)
-			(uuid "d7be94b7-58d6-43f2-bb7f-6637559df8a7")
+			(uuid "07ea0584-99e3-4152-ab03-20426f544066")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,8 +939,8 @@
 			)
 		)
 		(pin "G_Upper_Cmd_Out" output
-			(at 215.9 74.93 0)
-			(uuid "2633e0e9-26f6-4e70-b0d3-4b068e2a3d83")
+			(at 217.17 74.93 0)
+			(uuid "36ab3117-964d-4e62-82da-04c8ef396196")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +951,7 @@
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826"
-					(page "4")
+					(page "7")
 				)
 			)
 		)

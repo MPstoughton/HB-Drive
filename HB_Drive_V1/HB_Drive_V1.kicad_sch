@@ -678,16 +678,6 @@
 				(justify left top)
 			)
 		)
-		(pin "V_Fdbk" input
-			(at 88.9 83.82 180)
-			(uuid "9cc54a7b-f2a0-4f3d-af9a-f61499e48bae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Ext_Ref" input
 			(at 88.9 80.01 180)
 			(uuid "7d9ecf5a-429d-4abc-b78f-6a99e321f3d4")
@@ -726,6 +716,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "-V_Fdbk" input
+			(at 88.9 85.09 180)
+			(uuid "b02ca5ca-98ff-4ff5-a780-9d36064e0376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
