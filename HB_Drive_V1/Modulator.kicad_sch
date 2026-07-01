@@ -5,7 +5,7 @@
 	(uuid "1046ab8e-07c7-4f29-ba5c-f64742ab30fa")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_02x03_Counter_Clockwise"
+				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,10 +90,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+			(symbol "Conn_02x03_Counter_Clockwise_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -6.35)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -136,17 +136,6 @@
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start 3.81 2.667)
 					(end 2.54 2.413)
 					(stroke
@@ -171,17 +160,6 @@
 				(rectangle
 					(start 3.81 -2.413)
 					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -245,7 +223,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -263,7 +241,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -281,7 +259,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -298,77 +276,25 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Add adjustability to 555 timer period - target is factor of 10 freq, 10 kHz to 100 kHz\n"
-		(exclude_from_sim no)
-		(at 116.332 134.874 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5a1ef8e-529f-4744-a346-54db27421b58")
-	)
-	(junction
-		(at 95.25 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "539e9c30-6fa3-4174-9dcc-959fa9c0a893")
 	)
 	(junction
 		(at 95.25 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c97e98bb-3167-4cad-8885-e362890b1ff6")
+		(uuid "a324d5ce-88fa-42d6-88c8-42fb28d8649c")
 	)
 	(junction
-		(at 95.25 71.12)
+		(at 95.25 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cded022d-58cd-4b76-adfc-9781f2d93af6")
 	)
 	(wire
 		(pts
-			(xy 78.74 71.12) (xy 81.28 71.12)
+			(xy 78.74 73.66) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -398,7 +324,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 95.25 71.12)
+			(xy 95.25 71.12) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -418,16 +344,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 93.98 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa0a263-3f68-4c5f-bf8e-2c7a44b67fe2")
-	)
-	(wire
-		(pts
 			(xy 95.25 76.2) (xy 101.6 76.2)
 		)
 		(stroke
@@ -438,7 +354,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 93.98 71.12)
+			(xy 95.25 73.66) (xy 93.98 73.66)
 		)
 		(stroke
 			(width 0)
@@ -458,7 +374,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 81.28 68.58)
+			(xy 78.74 71.12) (xy 81.28 71.12)
 		)
 		(stroke
 			(width 0)
@@ -488,27 +404,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 81.28 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30f966d-5cdf-4652-b98c-13c6d486efcb")
-	)
-	(wire
-		(pts
 			(xy 95.25 73.66) (xy 95.25 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa4ec656-8fcf-490a-aa5e-571024cbd610")
-	)
-	(wire
-		(pts
-			(xy 95.25 71.12) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -518,7 +414,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 93.98 68.58)
+			(xy 176.53 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1a4da8-f807-4e9f-926f-48bc7ffee55d")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 93.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -548,6 +454,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 113.03) (xy 76.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5bec29-c99d-4ca7-a938-7a0d8306c5e7")
+	)
+	(wire
+		(pts
+			(xy 71.12 115.57) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba49f27-5e24-4595-924e-5f4d9527d185")
+	)
+	(wire
+		(pts
 			(xy 217.17 77.47) (xy 222.25 77.47)
 		)
 		(stroke
@@ -558,7 +484,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 93.98 73.66)
+			(xy 95.25 76.2) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -566,9 +492,20 @@
 		)
 		(uuid "ff24ea37-8de6-4ec7-a2d0-d2f0ca9f93e4")
 	)
+	(hierarchical_label "+10V_Ref"
+		(shape input)
+		(at 71.12 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "018153c7-c3ea-4ed8-b8a6-7d6dba18a1e1")
+	)
 	(hierarchical_label "D_Cmd"
 		(shape input)
-		(at 78.74 68.58 180)
+		(at 78.74 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -579,7 +516,7 @@
 	)
 	(hierarchical_label "Int_DC_Ref"
 		(shape input)
-		(at 78.74 71.12 180)
+		(at 78.74 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -599,16 +536,16 @@
 		)
 		(uuid "4e23f739-6202-4c72-b74e-ff17ca32b047")
 	)
-	(hierarchical_label "Int_AC_Ref"
+	(hierarchical_label "+10V_Ref"
 		(shape input)
-		(at 78.74 73.66 180)
+		(at 176.53 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "51cbf449-34e1-434e-8fb8-d8179f4d7b78")
+		(uuid "68510683-9bc0-4d6a-baa5-f66cfb7a3a39")
 	)
 	(hierarchical_label "G_Upper_Cmd"
 		(shape output)
@@ -632,9 +569,20 @@
 		)
 		(uuid "9629e7b5-c40d-43e1-9bd8-96deafa430fc")
 	)
+	(hierarchical_label "-10V_Ref"
+		(shape input)
+		(at 71.12 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9716af1f-4679-45f0-b274-05078fd5d30f")
+	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 86.36 71.12 0)
+		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
+		(at 86.36 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -642,9 +590,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0ad17e52-fabd-4c84-a12c-0e649e9b089b")
-		(property "Reference" "J7"
-			(at 87.376 65.278 0)
+		(uuid "9b67a0ec-02fa-469f-9774-5b0842b82936")
+		(property "Reference" "J16"
+			(at 87.376 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -653,8 +601,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 87.63 64.77 0)
+		(property "Value" "Conn_02x03_Counter_Clockwise"
+			(at 87.63 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -664,8 +612,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical"
-			(at 86.36 71.12 0)
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical"
+			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -676,7 +624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 71.12 0)
+			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -686,8 +634,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 71.12 0)
+		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -696,35 +644,29 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "7"
-			(uuid "1d9f18a3-9906-4fd7-ba1f-cde150b7db73")
 		)
 		(pin "5"
-			(uuid "a635ae3d-8d65-48dd-be74-603f548a0640")
-		)
-		(pin "3"
-			(uuid "243ac9ab-fa87-4f5e-913b-4ebab6144663")
-		)
-		(pin "6"
-			(uuid "34f063a7-4b3e-411e-9736-bbaa68433e93")
-		)
-		(pin "2"
-			(uuid "a8cac4ea-3e47-464f-9c92-3e9144bba1eb")
-		)
-		(pin "1"
-			(uuid "1ba16d63-00f7-4964-b01b-75cf62965dea")
-		)
-		(pin "8"
-			(uuid "2033b067-455c-409e-a155-e13661a02a8c")
+			(uuid "20098894-1bde-4dc7-8a7e-213eca171467")
 		)
 		(pin "4"
-			(uuid "aa320fb3-c23f-46b7-a7f9-660e4c2a7a68")
+			(uuid "fe2b1788-53cd-464d-b8bc-2be7af8238fb")
+		)
+		(pin "3"
+			(uuid "b1927570-8ab3-423c-9ded-a54477b584d7")
+		)
+		(pin "1"
+			(uuid "079f0058-1417-4c7c-8908-ca0bef8b7fca")
+		)
+		(pin "2"
+			(uuid "e08462b9-bf46-4b91-b282-8b306e240243")
+		)
+		(pin "6"
+			(uuid "a00e1167-495d-4929-a138-eef425c06ec5")
 		)
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826"
-					(reference "J7")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -775,6 +717,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+10V_Ref" input
+			(at 76.2 113.03 180)
+			(uuid "4c3db94a-c26d-44db-918d-8ada08aa2dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-10V_Ref" input
+			(at 76.2 115.57 180)
+			(uuid "3d62f8fb-8636-4088-b0fe-0112a139d057")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
