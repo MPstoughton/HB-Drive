@@ -3193,6 +3193,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 43.18) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30045791-ad30-4e82-9a2c-5bc67b56c8e8")
+	)
+	(wire
+		(pts
 			(xy 293.37 81.28) (xy 297.18 81.28)
 		)
 		(stroke
@@ -4901,16 +4911,6 @@
 		)
 		(uuid "0dd17989-4429-451c-bfde-639dd610e781")
 	)
-	(label "-I_Fdbk"
-		(at 204.47 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "320da7b4-5142-4cdb-8bb2-3dd279b19f33")
-	)
 	(label "-Prop_Reg_Cmd"
 		(at 261.62 171.45 0)
 		(effects
@@ -5021,6 +5021,17 @@
 			(justify right)
 		)
 		(uuid "41601bd5-13af-41fc-ab89-4d7fcbde7e56")
+	)
+	(hierarchical_label "I_Fdbk"
+		(shape output)
+		(at 200.66 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4be00b0a-8a5e-4b5d-9e20-c448532058b9")
 	)
 	(hierarchical_label "Ext_Cmd"
 		(shape input)

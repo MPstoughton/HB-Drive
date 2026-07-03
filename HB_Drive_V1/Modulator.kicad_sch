@@ -525,7 +525,7 @@
 		)
 		(uuid "3864db03-23d5-4e0b-a709-0851fb993bd7")
 	)
-	(hierarchical_label "I_Fdbk_Raw"
+	(hierarchical_label "I_Fdbk"
 		(shape input)
 		(at 146.05 83.82 180)
 		(effects
@@ -930,7 +930,7 @@
 				(justify right)
 			)
 		)
-		(pin "I_Fdbk_Raw" input
+		(pin "I_Fdbk" input
 			(at 151.13 83.82 180)
 			(uuid "ca100bfd-ec40-4d2c-900c-b965cee7fd9f")
 			(effects

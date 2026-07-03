@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 105.41 123.19) (xy 118.11 123.19)
+			(xy 107.95 123.19) (xy 120.65 123.19)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 115.57) (xy 118.11 115.57)
+			(xy 107.95 115.57) (xy 120.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 113.03) (xy 105.41 113.03)
+			(xy 120.65 113.03) (xy 107.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 111.76) (xy 74.93 111.76)
+			(xy 62.23 111.76) (xy 74.93 111.76)
 		)
 		(stroke
 			(width 0)
@@ -64,6 +64,26 @@
 			(type default)
 		)
 		(uuid "4ceed6ce-4606-44c2-abb4-5f086d3c87fa")
+	)
+	(wire
+		(pts
+			(xy 166.37 90.17) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0d0157-b869-4eae-90cc-fbc62121af24")
+	)
+	(wire
+		(pts
+			(xy 151.13 83.82) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2816b7-597e-4c3a-a70d-23017e02be95")
 	)
 	(wire
 		(pts
@@ -117,13 +137,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 116.84) (xy 74.93 116.84)
+			(xy 62.23 116.84) (xy 74.93 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "807b72e2-035d-4fe3-bd68-7c1f0150c005")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82298327-e92d-4206-bfde-a4fd1af8a89d")
 	)
 	(wire
 		(pts
@@ -167,7 +197,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 105.41) (xy 105.41 105.41)
+			(xy 120.65 105.41) (xy 107.95 105.41)
 		)
 		(stroke
 			(width 0)
@@ -177,13 +207,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 157.48 81.28)
+			(xy 181.61 90.17) (xy 166.37 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3a5a736-d2c1-4478-b119-20080fbb1cf9")
+		(uuid "a6dbdca1-b2a7-4e7c-9646-da709aa25c4a")
 	)
 	(wire
 		(pts
@@ -207,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 120.65) (xy 118.308 120.65)
+			(xy 107.95 120.65) (xy 120.848 120.65)
 		)
 		(stroke
 			(width 0)
@@ -287,17 +317,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 81.28) (xy 168.91 69.85)
+			(xy 160.02 78.74) (xy 168.91 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f78eba56-9db7-4fee-8452-95be34a45dd4")
+		(uuid "e2a61ab2-6d00-41bb-bb01-58f4ef26f1f9")
 	)
 	(wire
 		(pts
-			(xy 118.11 107.95) (xy 105.41 107.95)
+			(xy 120.65 107.95) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -305,18 +335,8 @@
 		)
 		(uuid "f9d8c144-eedf-4cdb-b480-5ae3e52a315f")
 	)
-	(wire
-		(pts
-			(xy 168.91 90.17) (xy 181.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb805e7a-fe32-4fe0-babf-27f1cda91531")
-	)
 	(label "V_Fdbk_Raw"
-		(at 118.11 115.57 180)
+		(at 120.65 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -336,7 +356,7 @@
 		(uuid "296fe0cd-ef39-404e-8acc-4c1cef0f7eb2")
 	)
 	(label "G_Lower_Cmd"
-		(at 59.69 116.84 0)
+		(at 62.23 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -346,7 +366,7 @@
 		(uuid "2f1190ad-a520-4a80-872f-954a647582d8")
 	)
 	(label "-10V_Ref"
-		(at 118.11 123.19 180)
+		(at 120.65 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -354,16 +374,6 @@
 			(justify right bottom)
 		)
 		(uuid "514c2d0c-f7d3-4f92-864e-126729ac692a")
-	)
-	(label "I_Fdbk_Raw"
-		(at 168.91 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5331c20c-8375-44fd-8a73-7e6d9207525e")
 	)
 	(label "G_Upper_Cmd"
 		(at 227.33 74.93 180)
@@ -426,7 +436,7 @@
 		(uuid "630d3c9d-0490-4cfa-82e8-3c65fb392bc9")
 	)
 	(label "Int_Cmd"
-		(at 118.11 105.41 180)
+		(at 120.65 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -446,7 +456,7 @@
 		(uuid "67288e8e-244a-42d5-b439-a7edb42ba52a")
 	)
 	(label "G_Upper_Cmd"
-		(at 59.69 111.76 0)
+		(at 62.23 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -456,7 +466,7 @@
 		(uuid "780d054a-485a-4b1d-afdc-07c5a143ad5d")
 	)
 	(label "+10V_Ref"
-		(at 118.308 120.65 180)
+		(at 120.848 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -516,7 +526,7 @@
 		(uuid "c78fc296-4e5e-40c5-a6be-0241a5e12217")
 	)
 	(label "I_Fdbk_Raw"
-		(at 118.11 113.03 180)
+		(at 120.65 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -546,7 +556,7 @@
 		(uuid "e39e6e73-f0ea-4965-b4e5-a15455db9428")
 	)
 	(label "Ext_Cmd"
-		(at 118.11 107.95 180)
+		(at 120.65 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -672,7 +682,7 @@
 				(justify left)
 			)
 		)
-		(pin "I_Fdbk_Raw" input
+		(pin "I_Fdbk" input
 			(at 181.61 90.17 180)
 			(uuid "1c5bc5ff-9b33-42fa-a03e-6d5d9617057a")
 			(effects
@@ -748,7 +758,7 @@
 			)
 		)
 		(pin "D_Cmd" output
-			(at 151.13 81.28 0)
+			(at 151.13 78.74 0)
 			(uuid "2e99c78e-72f7-4eb9-9450-b339f5551b88")
 			(effects
 				(font
@@ -797,6 +807,16 @@
 				(justify left)
 			)
 		)
+		(pin "I_Fdbk" output
+			(at 151.13 83.82 0)
+			(uuid "43e683c2-0815-4553-9c70-c264f9c8b6eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7"
@@ -807,11 +827,12 @@
 	)
 	(sheet
 		(at 74.93 101.6)
-		(size 30.48 25.4)
+		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -819,9 +840,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "85c9e323-38ca-4c60-81f5-7762016a368c")
+		(uuid "affa1a72-7fee-4831-b027-79a553ce267b")
 		(property "Sheetname" "Connectors, Auxillaries, and References"
-			(at 74.676 129.794 0)
+			(at 74.93 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -831,8 +852,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Aux.kicad_sch"
-			(at 74.676 130.556 0)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 74.93 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -842,19 +863,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Ext_Cmd" output
-			(at 105.41 107.95 0)
-			(uuid "41815158-5409-4b65-8b65-3838b2711ab0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+10V_Ref" output
-			(at 105.41 120.65 0)
-			(uuid "8409aa6e-f6cc-457f-a51e-522c82070554")
+			(at 107.95 120.65 0)
+			(uuid "f87d71be-4019-4135-a1c8-10417a75ec51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,9 +873,9 @@
 				(justify right)
 			)
 		)
-		(pin "-10V_Ref" output
-			(at 105.41 123.19 0)
-			(uuid "c7ce7ab1-0ded-485a-becd-cd551d68f4da")
+		(pin "-10V_Ref" input
+			(at 107.95 123.19 0)
+			(uuid "7d252e10-cb81-4ba5-bd33-f055efcb7d0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,19 +883,9 @@
 				(justify right)
 			)
 		)
-		(pin "I_Fdbk_Raw" output
-			(at 105.41 113.03 0)
-			(uuid "150aad3e-a09d-4172-90cb-6c3aef2b95ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_Fdbk_Raw" output
-			(at 105.41 115.57 0)
-			(uuid "66d171db-466c-4fff-b64b-daf1e2706193")
+		(pin "Ext_Cmd" output
+			(at 107.95 107.95 0)
+			(uuid "b1dd84f9-df19-44bd-bf95-68c9708e0dee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +895,7 @@
 		)
 		(pin "G_Lower_Cmd" input
 			(at 74.93 116.84 180)
-			(uuid "e4d7a5f7-3d5d-4359-9b22-ad561cf10d81")
+			(uuid "9497a86b-46b2-4758-b943-dde53aec0618")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +905,7 @@
 		)
 		(pin "G_Upper_Cmd" input
 			(at 74.93 111.76 180)
-			(uuid "766a9cb9-45af-4305-9309-da3a3e576497")
+			(uuid "1353c43a-a0a2-4a9b-808a-036aa5104798")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,8 +914,28 @@
 			)
 		)
 		(pin "Int_Cmd" output
-			(at 105.41 105.41 0)
-			(uuid "210bb1a9-60b4-47ec-8915-c0ef4d1ab1b3")
+			(at 107.95 105.41 0)
+			(uuid "c5301e56-bbcf-4d06-a0c6-7f6f5d74b7d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_Fdbk_Raw" output
+			(at 107.95 115.57 0)
+			(uuid "8f374045-7ac7-408e-9e00-1d489bff2af4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_Fdbk_Raw" output
+			(at 107.95 113.03 0)
+			(uuid "a068ff22-8807-4731-ac17-0dcdcfca030d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +946,7 @@
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7"
-					(page "9")
+					(page "5")
 				)
 			)
 		)

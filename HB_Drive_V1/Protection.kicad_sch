@@ -7189,7 +7189,7 @@
 		)
 		(uuid "c7f19115-1dd5-4186-adb3-babead4dece7")
 	)
-	(hierarchical_label "I_Fdbk_Raw"
+	(hierarchical_label "I_Fdbk"
 		(shape input)
 		(at 115.57 76.2 180)
 		(effects
@@ -9986,7 +9986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 142.24 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10084,7 +10084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10944,7 +10944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 130.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13530,7 +13530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 191.77 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -14025,7 +14025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 190.5 179.07 0)
 			(hide yes)
 			(show_name no)

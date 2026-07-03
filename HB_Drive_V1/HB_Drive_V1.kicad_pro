@@ -774,7 +774,7 @@
         "uuid": "a9b54c89-4c8e-4c90-8a0d-ec2009e369b7"
       }
     ],
-    "used_designators": "U405,U705-706,#PWR928,TP912-913,R903",
+    "used_designators": "U405,U501-506,U705-706,D501-506,#PWR501-534,#PWR928,TP501-512,TP912-913,J501-504,R501-508,R903,C501-511",
     "variants": []
   },
   "sheets": [
@@ -795,16 +795,16 @@
       "Modulator and Dead Time Injector"
     ],
     [
+      "affa1a72-7fee-4831-b027-79a553ce267b",
+      "Connectors, Auxillaries, and References"
+    ],
+    [
       "cc6479ca-50da-4dbe-9d7f-2e2b1563a3b2",
       "Protection"
     ],
     [
       "28e2d9d3-ebce-4623-8c7e-52f93025d826",
       "Modulator and Protection"
-    ],
-    [
-      "85c9e323-38ca-4c60-81f5-7762016a368c",
-      "Connectors, Auxillaries, and References"
     ],
     [
       "14fd6338-58f3-45df-a84c-66c2fad9aa6c",
