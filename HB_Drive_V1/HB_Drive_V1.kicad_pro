@@ -774,7 +774,7 @@
         "uuid": "a9b54c89-4c8e-4c90-8a0d-ec2009e369b7"
       }
     ],
-    "used_designators": "U405,U501-506,U705-706,D501-506,#PWR501-534,#PWR928,TP501-512,TP912-913,J501-504,R501-508,R903,C501-511",
+    "used_designators": "SW701,SW703-704",
     "variants": []
   },
   "sheets": [

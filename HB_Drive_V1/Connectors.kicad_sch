@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a4c328a9-fdf0-403f-b63d-59159986ad25")
+	(uuid "c21ed231-6ca7-468a-91e6-22738d41cb31")
 	(paper "A3")
 	(lib_symbols
 		(symbol "5227699-1:5227699-1"
@@ -5833,7 +5833,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 171.45) (xy 127 175.26)
+			(xy 127 172.72) (xy 127 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6484,7 +6484,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 127 177.8 180)
+		(at 127 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6494,7 +6494,7 @@
 		(dnp no)
 		(uuid "037a79e1-1cc6-47b1-b830-2a6cb625505f")
 		(property "Reference" "R503"
-			(at 125.73 173.99 90)
+			(at 125.73 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,8 +6504,8 @@
 				)
 			)
 		)
-		(property "Value" "10Ω"
-			(at 122.682 177.8 0)
+		(property "Value" "100Ω"
+			(at 122.682 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 127 177.8 0)
+			(at 127 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 177.8 0)
+			(at 127 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6537,7 +6537,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 127 177.8 0)
+			(at 127 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6723,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 184.15 270)
+		(at 127 185.42 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6734,7 +6734,7 @@
 		(dnp no)
 		(uuid "0b617dba-5e53-4896-a4d8-f52b6a753b6a")
 		(property "Reference" "D502"
-			(at 131.572 184.912 90)
+			(at 131.572 186.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6744,7 +6744,7 @@
 			)
 		)
 		(property "Value" "GREEN [XL-2012UGC]"
-			(at 138.684 187.452 90)
+			(at 138.684 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6754,7 +6754,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 127 184.15 0)
+			(at 127 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6765,7 +6765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 184.15 0)
+			(at 127 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6776,7 +6776,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 127 184.15 0)
+			(at 127 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6787,7 +6787,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 184.15 0)
+			(at 127 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +6911,7 @@
 				)
 			)
 		)
-		(property "Value" "470Ω"
+		(property "Value" "1KΩ"
 			(at 205.232 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,7 +9086,7 @@
 				)
 			)
 		)
-		(property "Value" "470Ω"
+		(property "Value" "500Ω"
 			(at 96.012 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9506,7 @@
 				)
 			)
 		)
-		(property "Value" "470Ω"
+		(property "Value" "330Ω"
 			(at 150.622 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10770,7 +10770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 187.96 0)
+		(at 127 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10780,7 +10780,7 @@
 		(dnp no)
 		(uuid "a29497fb-25a3-4c50-9736-f091d0c85db8")
 		(property "Reference" "#PWR0513"
-			(at 127 194.31 0)
+			(at 127 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10791,7 +10791,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.952 191.516 0)
+			(at 123.952 192.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10801,7 +10801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 187.96 0)
+			(at 127 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10812,7 +10812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 187.96 0)
+			(at 127 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10823,7 +10823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 187.96 0)
+			(at 127 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11984,7 +11984,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 127 171.45 0)
+		(at 127 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11994,7 +11994,7 @@
 		(dnp no)
 		(uuid "bf5eaec2-2f98-488c-90d2-dee002580b6b")
 		(property "Reference" "#PWR0512"
-			(at 127 175.26 0)
+			(at 127 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12005,7 +12005,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.286 167.64 0)
+			(at 129.286 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12015,7 +12015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 171.45 0)
+			(at 127 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,7 +12026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 171.45 0)
+			(at 127 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12037,7 +12037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 171.45 0)
+			(at 127 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12317,7 +12317,7 @@
 				)
 			)
 		)
-		(property "Value" "470Ω"
+		(property "Value" "1KΩ"
 			(at 178.562 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12896,7 +12896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5227699-1:TE_5227699-1"
+		(property "Footprint" "5227699:TE_5227699-1"
 			(at 285.75 138.43 0)
 			(hide yes)
 			(show_name no)

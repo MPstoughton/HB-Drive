@@ -2914,7 +2914,7 @@
 				(pin unspecified line
 					(at 0 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2932,7 +2932,7 @@
 				(pin unspecified line
 					(at 10.16 7.62 270)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2950,7 +2950,7 @@
 				(pin unspecified line
 					(at 20.32 0 180)
 					(length 2.54)
-					(name "3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7222,43 +7222,43 @@
 			(uuid "f9ea7729-e669-4489-b2fc-6d6bd555785a")
 		)
 		(pin "8"
-			(uuid "690be582-02e7-4006-b505-f2eb9906222b")
+			(uuid "690be582-02e7-4006-b505-f2eb9906222c")
 		)
 		(pin "5"
-			(uuid "3971b620-f9c1-4191-abdc-affe6b16bc3a")
+			(uuid "3971b620-f9c1-4191-abdc-affe6b16bc3b")
 		)
 		(pin "10"
-			(uuid "c3680209-171e-46a6-9099-c62002aecb06")
+			(uuid "c3680209-171e-46a6-9099-c62002aecb07")
 		)
 		(pin "4"
-			(uuid "75134679-9858-40ac-b3b6-76d45b3c61c0")
+			(uuid "75134679-9858-40ac-b3b6-76d45b3c61c1")
 		)
 		(pin "11"
-			(uuid "6b05832b-8144-4efc-8b3e-d1fd7f2a26e0")
+			(uuid "6b05832b-8144-4efc-8b3e-d1fd7f2a26e1")
 		)
 		(pin "1"
 			(uuid "0037f056-9d4a-46f2-ad1c-35e8b94af6aa")
 		)
 		(pin "12"
-			(uuid "14737194-5dd4-457f-bf16-93776d478329")
+			(uuid "14737194-5dd4-457f-bf16-93776d47832a")
 		)
 		(pin "6"
-			(uuid "8caf3adf-f8c6-450a-99a8-97abe7bcde3f")
+			(uuid "8caf3adf-f8c6-450a-99a8-97abe7bcde40")
 		)
 		(pin "9"
-			(uuid "e4c35604-a29f-4771-8cb8-a696b65ae37b")
+			(uuid "e4c35604-a29f-4771-8cb8-a696b65ae37c")
 		)
 		(pin "3"
 			(uuid "446c3a07-493c-41f8-a03e-7fa1fa080c61")
 		)
 		(pin "13"
-			(uuid "e919548b-6fd1-4f7f-b3e2-104ec14447f1")
+			(uuid "e919548b-6fd1-4f7f-b3e2-104ec14447f2")
 		)
 		(pin "7"
-			(uuid "f8f22ae8-d662-4203-a4cb-be5b09735cb5")
+			(uuid "f8f22ae8-d662-4203-a4cb-be5b09735cb6")
 		)
 		(pin "14"
-			(uuid "c0a1f86f-ec08-4e27-a29e-232e7d749fc3")
+			(uuid "c0a1f86f-ec08-4e27-a29e-232e7d749fc4")
 		)
 		(instances
 			(project "HB_Drive_V1"
@@ -8790,37 +8790,37 @@
 			(uuid "805fff6a-5e64-4319-bf27-6196f65b3bfc")
 		)
 		(pin "8"
-			(uuid "690be582-02e7-4006-b505-f2eb9906222c")
+			(uuid "690be582-02e7-4006-b505-f2eb9906222d")
 		)
 		(pin "5"
 			(uuid "bd4900d6-4e78-4b35-b522-76afe541108f")
 		)
 		(pin "10"
-			(uuid "c3680209-171e-46a6-9099-c62002aecb07")
+			(uuid "c3680209-171e-46a6-9099-c62002aecb08")
 		)
 		(pin "4"
 			(uuid "634a3dfc-0fc9-4123-877a-044f2480b382")
 		)
 		(pin "11"
-			(uuid "6b05832b-8144-4efc-8b3e-d1fd7f2a26e1")
+			(uuid "6b05832b-8144-4efc-8b3e-d1fd7f2a26e2")
 		)
 		(pin "1"
 			(uuid "015cc876-22b4-4576-be0b-3be151315dcd")
 		)
 		(pin "12"
-			(uuid "14737194-5dd4-457f-bf16-93776d47832a")
+			(uuid "14737194-5dd4-457f-bf16-93776d47832b")
 		)
 		(pin "6"
 			(uuid "48cb9775-5863-4bfb-b0ad-3a9efdd93771")
 		)
 		(pin "9"
-			(uuid "e4c35604-a29f-4771-8cb8-a696b65ae37c")
+			(uuid "e4c35604-a29f-4771-8cb8-a696b65ae37d")
 		)
 		(pin "3"
 			(uuid "c4800751-29b8-4797-9129-4c5d51f57e47")
 		)
 		(pin "13"
-			(uuid "e919548b-6fd1-4f7f-b3e2-104ec14447f2")
+			(uuid "e919548b-6fd1-4f7f-b3e2-104ec14447f3")
 		)
 		(pin "7"
 			(uuid "ee5eb244-f3ca-4259-9312-157f698b8279")

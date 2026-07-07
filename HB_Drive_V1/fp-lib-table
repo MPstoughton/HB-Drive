@@ -6,4 +6,6 @@
 	(lib (name "54-00164") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/54-00164") (options "") (descr ""))
 	(lib (name "USB_B_S_VT") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/USB_B_S_VT") (options "") (descr ""))
 	(lib (name "5227699") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/5227699") (options "") (descr ""))
+	(lib (name "PTS636SL43SMTRLFS") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/PTS636SL43SMTRLFS") (options "") (descr ""))
+	(lib (name "MMBD914LT3G") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/MMBD914LT3G") (options "") (descr ""))
 )
