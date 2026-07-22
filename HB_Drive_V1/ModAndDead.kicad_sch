@@ -3714,7 +3714,7 @@
 		(uuid "7538a631-27a5-4695-b6f0-8f27ee54c397")
 	)
 	(rectangle
-		(start 171.45 74.93)
+		(start 171.45 58.42)
 		(end 331.47 139.7)
 		(stroke
 			(width 0)
@@ -3750,6 +3750,18 @@
 		(uuid "b35d76d5-f475-4703-8b60-150fa073f0a0")
 	)
 	(rectangle
+		(start 201.93 64.77)
+		(end 252.73 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ddb9d34e-000d-4a49-b352-c603188de817")
+	)
+	(rectangle
 		(start 238.76 147.32)
 		(end 300.99 208.28)
 		(stroke
@@ -3760,6 +3772,16 @@
 			(type none)
 		)
 		(uuid "ebeaabef-9252-42bc-a8fe-2bd07f759585")
+	)
+	(text "unused NOR 403B on 74AUC2G02 Dual Package"
+		(exclude_from_sim no)
+		(at 227.33 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2420f4b5-91f3-4ae6-a1d0-28c3e2910bde")
 	)
 	(text "DUTY COMMAND TO CARRIER WAVE COMPARATOR"
 		(exclude_from_sim no)
@@ -3866,6 +3888,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "328167f5-0f6a-4592-b7cd-d1b848fc272f")
+	)
+	(junction
+		(at 180.34 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "396c888d-9fa1-465b-8e4e-4582d1821d0e")
 	)
 	(junction
 		(at 140.97 97.79)
@@ -3996,6 +4024,10 @@
 	(no_connect
 		(at 280.67 170.18)
 		(uuid "0c803847-6a3a-4afb-8cca-935e749e5268")
+	)
+	(no_connect
+		(at 208.28 76.2)
+		(uuid "13ac905a-af33-401f-b342-8a3e3ace05ef")
 	)
 	(no_connect
 		(at 280.67 180.34)
@@ -4146,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "2a586f66-3268-487b-b217-481225aa8ed4")
+	)
+	(wire
+		(pts
+			(xy 180.34 73.66) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba56b16-e4b4-420f-acea-d39e1bd2d9cd")
 	)
 	(wire
 		(pts
@@ -4386,6 +4428,16 @@
 			(type default)
 		)
 		(uuid "6f3721a3-0b9d-4a24-a6bf-316c2f8e2102")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705b8af2-436a-421e-ae98-1a28ca29b17b")
 	)
 	(wire
 		(pts
@@ -5999,6 +6051,104 @@
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
 					(reference "R401")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G02")
+		(at 195.58 76.2 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "399fc2a7-150f-42db-8065-8194fbe77fa9")
+		(property "Reference" "U403"
+			(at 194.31 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AUC2G02"
+			(at 194.31 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NOR Gate, Low-Voltage CMOS"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "8935bca7-2bc7-44c0-a72e-8011f8a692a0")
+		)
+		(pin "3"
+			(uuid "cbac7215-dbc0-4fb1-bdc1-72c26e658bf6")
+		)
+		(pin "4"
+			(uuid "4cdd30f9-325b-4b5f-b6dc-04ce7af9f5fc")
+		)
+		(pin "6"
+			(uuid "a25fa601-43ba-4d6c-b6ad-2cf510f5721d")
+		)
+		(pin "2"
+			(uuid "f57aef55-17d4-4a45-8655-4b8fdd8c4a5d")
+		)
+		(pin "5"
+			(uuid "ab17501b-5a57-4196-9b07-9c268b715f0d")
+		)
+		(pin "7"
+			(uuid "9e1a4f76-976a-4335-aad7-ac5454032850")
+		)
+		(pin "1"
+			(uuid "328b5a9c-91ff-457c-8b27-c774d8e07869")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "U403")
+					(unit 2)
 				)
 			)
 		)
@@ -8689,22 +8839,22 @@
 			)
 		)
 		(pin "8"
-			(uuid "8935bca7-2bc7-44c0-a72e-8011f8a692a0")
+			(uuid "8935bca7-2bc7-44c0-a72e-8011f8a692a1")
 		)
 		(pin "3"
-			(uuid "cbac7215-dbc0-4fb1-bdc1-72c26e658bf6")
+			(uuid "cbac7215-dbc0-4fb1-bdc1-72c26e658bf8")
 		)
 		(pin "4"
-			(uuid "4cdd30f9-325b-4b5f-b6dc-04ce7af9f5fc")
+			(uuid "4cdd30f9-325b-4b5f-b6dc-04ce7af9f5fd")
 		)
 		(pin "6"
-			(uuid "a25fa601-43ba-4d6c-b6ad-2cf510f5721d")
+			(uuid "a25fa601-43ba-4d6c-b6ad-2cf510f5721f")
 		)
 		(pin "2"
 			(uuid "22232db4-a72d-4c9e-a481-aa0c894935f3")
 		)
 		(pin "5"
-			(uuid "ab17501b-5a57-4196-9b07-9c268b715f0d")
+			(uuid "ab17501b-5a57-4196-9b07-9c268b715f0f")
 		)
 		(pin "7"
 			(uuid "9c5d3eb5-b6cf-47f5-88a8-1f4055fa5d4a")
@@ -8910,6 +9060,83 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
 					(reference "#PWR0411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa95183a-0461-499e-aee4-0649af2c37aa")
+		(property "Reference" "#PWR0419"
+			(at 180.34 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 183.896 84.582 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95c6509d-7d9d-4312-9908-67eaa83cbc65")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)

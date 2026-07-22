@@ -503,28 +503,6 @@
 		)
 		(uuid "018153c7-c3ea-4ed8-b8a6-7d6dba18a1e1")
 	)
-	(hierarchical_label "D_Cmd"
-		(shape input)
-		(at 78.74 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3028f860-4ddb-40fc-b1d1-308ddf24a22f")
-	)
-	(hierarchical_label "Int_Cmd"
-		(shape input)
-		(at 78.74 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3864db03-23d5-4e0b-a709-0851fb993bd7")
-	)
 	(hierarchical_label "I_Fdbk"
 		(shape input)
 		(at 146.05 83.82 180)
@@ -546,6 +524,17 @@
 			(justify left)
 		)
 		(uuid "4e23f739-6202-4c72-b74e-ff17ca32b047")
+	)
+	(hierarchical_label "Int_Cmd"
+		(shape input)
+		(at 78.74 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6246b202-0067-4dda-9d6f-bb262c46ce87")
 	)
 	(hierarchical_label "+10V_Ref"
 		(shape input)
@@ -569,17 +558,6 @@
 		)
 		(uuid "91282a7e-e16e-4105-b9db-6ea7eeeb0a5e")
 	)
-	(hierarchical_label "Ext_Cmd"
-		(shape input)
-		(at 78.74 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9629e7b5-c40d-43e1-9bd8-96deafa430fc")
-	)
 	(hierarchical_label "-10V_Ref"
 		(shape input)
 		(at 71.12 115.57 180)
@@ -590,6 +568,28 @@
 			(justify right)
 		)
 		(uuid "9716af1f-4679-45f0-b274-05078fd5d30f")
+	)
+	(hierarchical_label "Ext_Cmd"
+		(shape input)
+		(at 78.74 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae1b5e18-433e-4086-838c-14962e8dc45b")
+	)
+	(hierarchical_label "D_Cmd"
+		(shape input)
+		(at 78.74 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0268718-f154-44fa-bc0e-1d8e0b97267f")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")

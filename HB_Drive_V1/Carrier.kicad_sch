@@ -3062,6 +3062,18 @@
 		(uuid "3477ca61-5ab0-456f-b637-d919f55a817d")
 	)
 	(rectangle
+		(start 87.63 95.25)
+		(end 138.43 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "54f94822-81ab-4a0d-aaea-e3539e23aa69")
+	)
+	(rectangle
 		(start 29.718 37.338)
 		(end 53.848 43.688)
 		(stroke
@@ -3190,6 +3202,16 @@
 			)
 		)
 		(uuid "37ec9482-f3b3-41a8-ae24-bbb927d85531")
+	)
+	(text "unused OpAmp 1004A on TL082 Dual Package"
+		(exclude_from_sim no)
+		(at 113.03 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c8fd4e8-46a9-4912-879d-2ea7fb4eeaac")
 	)
 	(text "TRIANGLE WAVE DC OFFSET, AND GAIN ADJUST"
 		(exclude_from_sim no)
@@ -3479,6 +3501,16 @@
 	(no_connect
 		(at 62.23 49.53)
 		(uuid "21ff1e27-fada-41b4-b30d-4a7d04f80efe")
+	)
+	(wire
+		(pts
+			(xy 76.2 110.49) (xy 91.44 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006679fc-e01f-4627-8901-89a51c4c0833")
 	)
 	(wire
 		(pts
@@ -3902,6 +3934,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 99.06) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d15b603-b394-4d3d-81fe-bc71e2e475a3")
+	)
+	(wire
+		(pts
 			(xy 105.41 110.49) (xy 105.41 118.11)
 		)
 		(stroke
@@ -3909,6 +3951,16 @@
 			(type default)
 		)
 		(uuid "61ec7ec5-fb82-4950-9705-4d0c7a161ba4")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 91.44 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62737425-26c7-4c95-a069-53e2531cbc6d")
 	)
 	(wire
 		(pts
@@ -4252,6 +4304,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 99.06) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7e8188-b43f-4225-8ee0-67eaf1948763")
+	)
+	(wire
+		(pts
 			(xy 179.07 106.68) (xy 181.61 106.68)
 		)
 		(stroke
@@ -4329,6 +4391,16 @@
 			(type default)
 		)
 		(uuid "c017da7f-8aec-4116-be87-907229838747")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17bcc88-8618-49e9-b32f-fc362ef3d5a1")
 	)
 	(wire
 		(pts
@@ -5691,6 +5763,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 83.82 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22886b66-d569-4902-b832-fb94aa92e765")
+		(property "Reference" "U1004"
+			(at 86.614 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 87.884 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 83.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 83.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 83.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d79dac56-f8d9-449e-b8ee-1b2e7449b092")
+		)
+		(pin "1"
+			(uuid "46257f22-b9a3-40f1-977c-6718c49104b0")
+		)
+		(pin "2"
+			(uuid "a90ad24f-01f9-4805-96da-c6864c64c78e")
+		)
+		(pin "6"
+			(uuid "d0042c63-7263-404e-918d-58a2a2260917")
+		)
+		(pin "4"
+			(uuid "dc4e4a6b-a0f5-4f76-ba43-b345f318961e")
+		)
+		(pin "7"
+			(uuid "3967fc28-ef59-4b6c-b018-1c4b598b00b7")
+		)
+		(pin "5"
+			(uuid "fc15ea02-bd84-4f16-8846-2fb64f64dfac")
+		)
+		(pin "8"
+			(uuid "0eeed76e-f970-4429-9d1d-cb5385f0c0aa")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/14fd6338-58f3-45df-a84c-66c2fad9aa6c"
+					(reference "U1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 128.27 0)
 		(unit 1)
@@ -6644,6 +6814,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 72.39 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "606183fa-bd78-4049-aa87-8a6f18c79925")
+		(property "Reference" "#PWR01020"
+			(at 72.39 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.596 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c62fa323-5130-4446-bb53-62ead8b8eeca")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/14fd6338-58f3-45df-a84c-66c2fad9aa6c"
+					(reference "#PWR01020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-15V")
 		(at 194.31 105.41 0)
 		(unit 1)
@@ -7065,7 +7312,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 137.414 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7460,7 +7707,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 98.806 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +9356,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 98.806 120.142 90)
 			(hide yes)
 			(show_name no)

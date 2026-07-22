@@ -4564,7 +4564,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 152.146 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4801,7 +4801,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF 5%"
+		(property "Value" "10uF 10%"
 			(at 301.498 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5157,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 199.136 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5335,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 112.014 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -5658,7 +5658,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 131.826 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,7 +5973,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 112.014 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -6054,7 +6054,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 162.306 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6827,7 +6827,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 266.954 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -7070,7 +7070,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 152.146 87.122 90)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7308,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 111.506 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7465,7 +7465,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 147.066 128.524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8190,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 215.646 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8669,7 +8669,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 266.446 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,7 +8749,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 265.684 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9416,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 280.924 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)

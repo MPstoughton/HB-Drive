@@ -2062,172 +2062,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819WS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5819WS"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N5819WS_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5819WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PV36W104C01B00:PV36W104C01B00"
 			(body_styles demorgan)
 			(pin_names
@@ -4624,6 +4458,18 @@
 		(uuid "726a00fd-2f53-454a-ab88-5eff58e7b422")
 	)
 	(rectangle
+		(start 177.8 41.91)
+		(end 228.6 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8054132b-e223-4139-8e5e-983d69f24d36")
+	)
+	(rectangle
 		(start 173.228 161.29)
 		(end 196.088 166.37)
 		(stroke
@@ -4776,6 +4622,16 @@
 			)
 		)
 		(uuid "17347eef-4601-4583-8cf5-713fbffea9bc")
+	)
+	(text "unused OpAmp 504A on TL082 Dual Package"
+		(exclude_from_sim no)
+		(at 203.2 43.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19e789ea-b533-4fb8-afef-5d743059b8a2")
 	)
 	(text "+3.3V Power Indicator"
 		(exclude_from_sim no)
@@ -5058,7 +4914,7 @@
 		(uuid "53e2f74f-475a-465f-8b46-a3ea5a6a9a34")
 	)
 	(junction
-		(at 279.4 57.15)
+		(at 287.02 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a82e125-e368-4d90-9d7a-ed40e50aa6b5")
@@ -5142,7 +4998,7 @@
 		(uuid "a9c83a81-bbee-450f-8e58-0161ea60df06")
 	)
 	(junction
-		(at 279.4 54.61)
+		(at 287.02 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad087220-9337-46cc-926c-613afedfc14b")
@@ -5273,6 +5129,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 49.53) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13546448-e069-4efc-bd5a-b10948723615")
+	)
+	(wire
+		(pts
 			(xy 142.24 85.09) (xy 143.51 85.09)
 		)
 		(stroke
@@ -5313,7 +5179,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 44.45) (xy 281.94 52.07)
+			(xy 289.56 44.45) (xy 289.56 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5383,7 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 52.07) (xy 285.75 52.07)
+			(xy 289.56 52.07) (xy 293.37 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5513,16 +5379,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 171.45) (xy 209.55 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3843ef7b-c85b-4f81-beae-d0e0011fa0b2")
-	)
-	(wire
-		(pts
 			(xy 189.23 127) (xy 195.58 127)
 		)
 		(stroke
@@ -5540,6 +5396,16 @@
 			(type default)
 		)
 		(uuid "3dd57f63-6be2-4595-988b-285703b5e76c")
+	)
+	(wire
+		(pts
+			(xy 209.55 172.72) (xy 209.55 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e70ceb0-c28f-4568-b68f-fba8b85d55be")
 	)
 	(wire
 		(pts
@@ -5693,7 +5559,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 57.15) (xy 293.37 57.15)
+			(xy 287.02 57.15) (xy 293.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5723,7 +5589,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 54.61) (xy 293.37 54.61)
+			(xy 287.02 54.61) (xy 293.37 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5840,6 +5706,16 @@
 			(type default)
 		)
 		(uuid "6c8c2c41-8b32-4a73-8bca-7ef932b4f5ee")
+	)
+	(wire
+		(pts
+			(xy 195.58 54.61) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca3b3e2-1824-4a14-9d26-3dcb246a7460")
 	)
 	(wire
 		(pts
@@ -5963,6 +5839,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 52.07) (xy 210.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a97f97e-2b31-4d05-9ed0-f0596e99bafa")
+	)
+	(wire
+		(pts
 			(xy 107.95 128.27) (xy 107.95 130.81)
 		)
 		(stroke
@@ -6010,6 +5896,16 @@
 			(type default)
 		)
 		(uuid "9de98a86-405c-47e9-97e4-987198de9356")
+	)
+	(wire
+		(pts
+			(xy 209.55 185.42) (xy 209.55 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4cc7cc-92a7-4849-ab68-1c66d39b896d")
 	)
 	(wire
 		(pts
@@ -6183,7 +6079,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 57.15) (xy 279.4 57.15)
+			(xy 195.58 60.96) (xy 210.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84eac60-a6ff-4df4-9bae-ec59d414d3ac")
+	)
+	(wire
+		(pts
+			(xy 284.48 57.15) (xy 287.02 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6213,7 +6119,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 54.61) (xy 279.4 54.61)
+			(xy 284.48 54.61) (xy 287.02 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6361,6 +6267,16 @@
 		)
 		(uuid "fbd7b124-2ea3-47d7-ae90-b7dfccb5c23c")
 	)
+	(wire
+		(pts
+			(xy 190.5 49.53) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6b4ba5-0019-4e31-b8b5-c78183c4f733")
+	)
 	(hierarchical_label "V_Fdbk_Raw"
 		(shape output)
 		(at 299.72 107.95 180)
@@ -6385,7 +6301,7 @@
 	)
 	(hierarchical_label "G_Lower_Cmd"
 		(shape input)
-		(at 276.86 57.15 180)
+		(at 284.48 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6440,7 +6356,7 @@
 	)
 	(hierarchical_label "G_Upper_Cmd"
 		(shape input)
-		(at 276.86 54.61 180)
+		(at 284.48 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6584,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10%"
 			(at 119.126 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6722,6 +6638,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 209.55 175.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "097876df-138a-4bf5-8db5-6187380194e3")
+		(property "Reference" "R508"
+			(at 208.28 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1KΩ"
+			(at 213.106 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 209.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 209.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c3286b3-7ee9-40d7-8abe-97f81b6853d3")
+		)
+		(pin "2"
+			(uuid "ef2f3eb6-d982-4f56-b885-8063ef9324f2")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
+					(reference "R508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 127 185.42 270)
 		(mirror x)
@@ -6743,7 +6739,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN [XL-2012UGC]"
+		(property "Value" "LTST-C170KGKT [GREEN]"
 			(at 138.684 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6890,8 +6886,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 209.55 177.8 180)
+		(lib_id "power:GND")
+		(at 190.5 52.07 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6899,9 +6896,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "152edc21-ebaf-46e9-9a92-9137be6bd382")
-		(property "Reference" "R508"
-			(at 208.28 173.99 90)
+		(uuid "0f02ecde-08bb-4455-9bcf-5c7681839829")
+		(property "Reference" "#PWR0535"
+			(at 190.5 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,8 +6908,8 @@
 				)
 			)
 		)
-		(property "Value" "1KΩ"
-			(at 205.232 177.8 0)
+		(property "Value" "GND"
+			(at 187.96 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6921,8 +6918,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 209.55 177.8 0)
+		(property "Footprint" ""
+			(at 190.5 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6933,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 177.8 0)
+			(at 190.5 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6943,8 +6940,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 209.55 177.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,15 +6952,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f1c05e1-1734-4a96-adca-6e2af2a22a38")
-		)
-		(pin "2"
-			(uuid "4540b80c-47d9-4a99-8cea-865e2d8c7bee")
+			(uuid "48efdbbc-a4b1-4986-b62f-b7233ac8a940")
 		)
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
-					(reference "R508")
+					(reference "#PWR0535")
 					(unit 1)
 				)
 			)
@@ -7368,7 +7362,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10%"
 			(at 204.724 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7448,7 +7442,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10%"
 			(at 150.368 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7684,7 +7678,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN [XL-2012UGC]"
+		(property "Value" "LTST-C170KGKT [GREEN]"
 			(at 112.014 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7856,7 +7850,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF 10%"
 			(at 277.622 107.442 0)
 			(hide yes)
 			(show_name no)
@@ -7910,6 +7904,97 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
 					(reference "C511")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 209.55 181.61 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3204a012-5760-4eec-bdc9-3592b3e42172")
+		(property "Reference" "D505"
+			(at 213.868 181.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C170KRKT [RED]"
+			(at 220.98 184.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 209.55 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 209.55 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e36ea2d7-dcc8-4590-8094-dded0451418b")
+		)
+		(pin "2"
+			(uuid "22dc6c02-cec8-442a-b285-71b0a5316027")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
+					(reference "D505")
 					(unit 1)
 				)
 			)
@@ -8321,97 +8406,6 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
 					(reference "C502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 209.55 184.15 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "404d0b7a-00bb-41c7-b7e6-925f0376de07")
-		(property "Reference" "D505"
-			(at 213.868 184.404 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED [XL-2012SURC]"
-			(at 220.98 186.944 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 209.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 209.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e780447-e8d8-4796-8dd3-39c83c22fddb")
-		)
-		(pin "2"
-			(uuid "8f9ad0b9-b760-421a-a2e7-c1cf5895c6cb")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
-					(reference "D505")
 					(unit 1)
 				)
 			)
@@ -9006,7 +9000,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10%"
 			(at 198.628 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9565,83 +9559,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 255.27 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58a524b6-e1b4-4999-ae1c-40cd97038cd6")
-		(property "Reference" "#PWR0527"
-			(at 255.27 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 252.476 100.838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c730efd-8362-44b4-b624-7fe720857f00")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
-					(reference "#PWR0527")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL082")
 		(at 134.62 57.15 0)
 		(unit 1)
@@ -9916,7 +9833,7 @@
 				)
 			)
 		)
-		(property "Value" "RED [XL-2012SURC]"
+		(property "Value" "LTST-C170KRKT [RED]"
 			(at 194.31 186.944 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10446,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 279.4 54.61 0)
+		(at 287.02 54.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10540,7 +10457,7 @@
 		(dnp no)
 		(uuid "8b62b19d-02f9-4bda-9da5-2c9997e8d3ce")
 		(property "Reference" "TP509"
-			(at 277.622 49.784 0)
+			(at 285.242 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10551,7 +10468,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 276.86 52.5779 0)
+			(at 284.48 52.5779 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10563,7 +10480,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 274.32 54.61 0)
+			(at 281.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10574,7 +10491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 54.61 0)
+			(at 281.94 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10585,7 +10502,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 279.4 54.61 0)
+			(at 287.02 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10847,7 +10764,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 279.4 57.15 180)
+		(at 287.02 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10857,7 +10774,7 @@
 		(dnp no)
 		(uuid "a9557bf1-a571-442a-9417-5db204f8845d")
 		(property "Reference" "TP510"
-			(at 277.368 61.722 0)
+			(at 284.988 61.722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10868,7 +10785,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 276.86 59.1821 0)
+			(at 284.48 59.1821 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10880,7 +10797,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 274.32 57.15 0)
+			(at 281.94 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10891,7 +10808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 57.15 0)
+			(at 281.94 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +10819,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 279.4 57.15 0)
+			(at 287.02 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11488,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 134.366 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11666,7 +11583,7 @@
 				)
 			)
 		)
-		(property "Value" "RED [XL-2012SURC]"
+		(property "Value" "LTST-C170KRKT [RED]"
 			(at 166.37 187.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,6 +11730,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 203.2 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b80b12bc-ed22-4d94-bf8a-44dc6665128d")
+		(property "Reference" "U504"
+			(at 206.248 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 208.026 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 203.2 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 203.2 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 203.2 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0c0b4dd1-f769-4a64-b385-75048454d60a")
+		)
+		(pin "1"
+			(uuid "caae4242-46e1-484c-93fc-49b54dc1b77b")
+		)
+		(pin "2"
+			(uuid "0595438d-627c-42f5-813f-68147a1e66c8")
+		)
+		(pin "6"
+			(uuid "02683f9b-3c3d-41d3-af57-2c604cf3960e")
+		)
+		(pin "4"
+			(uuid "dc4e4a6b-a0f5-4f76-ba43-b345f3189624")
+		)
+		(pin "7"
+			(uuid "276fbc1a-0897-498e-8c1b-cb2b1d34595c")
+		)
+		(pin "5"
+			(uuid "04cdd665-4fb9-4e8e-85ee-36946114ee3f")
+		)
+		(pin "8"
+			(uuid "0eeed76e-f970-4429-9d1d-cb5385f0c0b0")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
+					(reference "U504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 123.19 82.55 90)
 		(unit 1)
@@ -11834,7 +11849,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 122.936 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12216,86 +12231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 289.56 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d260d182-3252-4cce-a0de-f1dbb1c633c1")
-		(property "Reference" "D506"
-			(at 289.8775 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 289.8775 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 289.56 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 289.56 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 289.56 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44960a16-dad6-478d-8dd9-9e903e0d2803")
-		)
-		(pin "2"
-			(uuid "44fe32d3-6574-46e6-bdb7-559be5363ece")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
-					(reference "D506")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 182.88 177.8 180)
 		(unit 1)
@@ -12603,6 +12538,84 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
 					(reference "#PWR0504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 255.27 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e24209f0-a128-410a-a7df-20eb68175fc8")
+		(property "Reference" "#PWR0527"
+			(at 255.27 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 255.27 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 255.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f5262b3-9b17-496e-a3e2-991b16a99c8c")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
@@ -13149,7 +13162,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 281.94 44.45 0)
+		(at 289.56 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13159,7 +13172,7 @@
 		(dnp no)
 		(uuid "ee5b3ae5-562a-4f5d-a388-d8f308420353")
 		(property "Reference" "#PWR0530"
-			(at 281.94 48.26 0)
+			(at 289.56 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13170,7 +13183,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 284.988 41.656 0)
+			(at 292.608 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13180,7 +13193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 44.45 0)
+			(at 289.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13191,7 +13204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 44.45 0)
+			(at 289.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13202,7 +13215,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 281.94 44.45 0)
+			(at 289.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13581,7 +13594,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10%"
 			(at 250.698 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)

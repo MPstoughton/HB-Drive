@@ -2816,6 +2816,12 @@
 		(uuid "c8bbf772-e4e6-4036-8ba7-27c2d78319f1")
 	)
 	(junction
+		(at 299.72 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2f640fc-ee22-402e-9645-f7a9370f1a36")
+	)
+	(junction
 		(at 142.24 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2856,6 +2862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eec2b843-aad2-484a-86cf-92dcc8ff894b")
+	)
+	(junction
+		(at 325.12 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1830b8f-dc4b-454a-b1ea-0fb5911560a4")
 	)
 	(junction
 		(at 124.46 160.02)
@@ -2900,6 +2912,16 @@
 			(type default)
 		)
 		(uuid "062a0b01-da29-4055-88e2-4d68cc2d8732")
+	)
+	(wire
+		(pts
+			(xy 299.72 95.25) (xy 320.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cb6161-253c-4232-81a9-d620acc6afce")
 	)
 	(wire
 		(pts
@@ -3650,6 +3672,16 @@
 			(type default)
 		)
 		(uuid "697de910-a665-4984-9204-555cf0450746")
+	)
+	(wire
+		(pts
+			(xy 320.04 95.25) (xy 320.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b40da73-70d2-4d56-a2bc-a174a1c1fcf3")
 	)
 	(wire
 		(pts
@@ -4773,6 +4805,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 107.95) (xy 330.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfb8fb9-b8bc-4089-ad82-01d6f4371843")
+	)
+	(wire
+		(pts
 			(xy 234.95 55.88) (xy 232.41 55.88)
 		)
 		(stroke
@@ -4843,7 +4885,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 107.95) (xy 330.2 107.95)
+			(xy 320.04 107.95) (xy 325.12 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5121,7 +5163,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 129.794 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -5377,7 +5419,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF 5%"
+		(property "Value" "10uF 10%"
 			(at 309.118 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6755,7 +6797,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 208.026 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7341,8 +7383,8 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 306.324 164.846 0)
+		(property "Value" "10kΩ 1%"
+			(at 308.356 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7421,7 +7463,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 292.354 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -7835,7 +7877,7 @@
 				)
 			)
 		)
-		(property "Value" "27uF 5%"
+		(property "Value" "27nF 5%"
 			(at 292.1 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7915,7 +7957,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 129.286 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +8611,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 129.794 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -8908,7 +8950,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 152.146 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9065,7 +9107,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 182.626 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +9478,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 320.04 107.95 0)
+		(at 325.12 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9446,7 +9488,7 @@
 		(dnp no)
 		(uuid "8929c9bc-e7c4-4f4f-a636-d9b56b4ae2d6")
 		(property "Reference" "TP301"
-			(at 318.262 102.616 0)
+			(at 322.834 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9457,7 +9499,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 322.58 105.9179 0)
+			(at 327.66 105.9179 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9469,7 +9511,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 325.12 107.95 0)
+			(at 330.2 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9480,7 +9522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 107.95 0)
+			(at 330.2 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9491,7 +9533,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 320.04 107.95 0)
+			(at 325.12 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10027,7 +10069,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 292.354 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10108,7 +10150,7 @@
 				)
 			)
 		)
-		(property "Value" "10KΩ"
+		(property "Value" "10kΩ 1%"
 			(at 163.576 52.832 90)
 			(hide yes)
 			(show_name no)
@@ -10189,7 +10231,7 @@
 				)
 			)
 		)
-		(property "Value" "27uF 5%"
+		(property "Value" "27nF 5%"
 			(at 292.1 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11060,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 273.304 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11098,7 +11140,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ 1%"
 			(at 129.794 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -11354,7 +11396,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 291.846 169.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11770,7 +11812,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 224.536 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12658,7 +12700,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 163.576 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12895,7 +12937,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10kΩ 1%"
 			(at 167.386 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
