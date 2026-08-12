@@ -237,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 120.65) (xy 120.848 120.65)
+			(xy 107.95 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -335,16 +335,6 @@
 		)
 		(uuid "f9d8c144-eedf-4cdb-b480-5ae3e52a315f")
 	)
-	(label "V_Fdbk_Raw"
-		(at 120.65 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28b3797a-426e-4793-8fc1-c420a1a8d43f")
-	)
 	(label "+10V_Ref"
 		(at 113.03 86.36 0)
 		(effects
@@ -364,6 +354,16 @@
 			(justify left bottom)
 		)
 		(uuid "2f1190ad-a520-4a80-872f-954a647582d8")
+	)
+	(label "V_Fdbk_Raw"
+		(at 120.65 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35fe3383-2588-4a92-ad96-24233a6e000a")
 	)
 	(label "-10V_Ref"
 		(at 120.65 123.19 180)
@@ -466,7 +466,7 @@
 		(uuid "780d054a-485a-4b1d-afdc-07c5a143ad5d")
 	)
 	(label "+10V_Ref"
-		(at 120.848 120.65 180)
+		(at 120.65 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -474,6 +474,16 @@
 			(justify right bottom)
 		)
 		(uuid "81439bf5-6e57-4345-bb03-a6881f135469")
+	)
+	(label "I_Fdbk_Raw"
+		(at 120.65 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83ff7409-6042-452c-8b43-b8d14cdb7013")
 	)
 	(label "Int_Cmd"
 		(at 168.91 72.39 0)
@@ -524,16 +534,6 @@
 			(justify left bottom)
 		)
 		(uuid "c78fc296-4e5e-40c5-a6be-0241a5e12217")
-	)
-	(label "I_Fdbk_Raw"
-		(at 120.65 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d228a719-2877-4c42-aacc-81026808056d")
 	)
 	(label "Ext_Cmd"
 		(at 113.03 78.74 0)
@@ -682,9 +682,9 @@
 				(justify left)
 			)
 		)
-		(pin "I_Fdbk" input
+		(pin "-I_Fdbk" input
 			(at 181.61 90.17 180)
-			(uuid "1c5bc5ff-9b33-42fa-a03e-6d5d9617057a")
+			(uuid "2ceb318f-7da9-461a-9dea-9a21e0ebaeed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,9 +807,9 @@
 				(justify left)
 			)
 		)
-		(pin "I_Fdbk" output
+		(pin "-I_Fdbk" output
 			(at 151.13 83.82 0)
-			(uuid "43e683c2-0815-4553-9c70-c264f9c8b6eb")
+			(uuid "af066d2b-ed55-4c71-b0df-33459357c08f")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -364,6 +364,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 74.93) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7387befa-8119-4496-b268-dc142c5a14f8")
+	)
+	(wire
+		(pts
 			(xy 190.5 74.93) (xy 195.58 74.93)
 		)
 		(stroke
@@ -400,17 +410,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "87ad52c3-4310-4880-b971-16bafcf9c86c")
-	)
-	(wire
-		(pts
-			(xy 127 74.93) (xy 151.13 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a227ce51-760f-48d4-a326-2217edb81379")
+		(uuid "9ccb7cd1-8638-469c-b5f5-7860069130cc")
 	)
 	(wire
 		(pts
@@ -503,7 +503,7 @@
 		)
 		(uuid "018153c7-c3ea-4ed8-b8a6-7d6dba18a1e1")
 	)
-	(hierarchical_label "I_Fdbk"
+	(hierarchical_label "-I_Fdbk"
 		(shape input)
 		(at 146.05 83.82 180)
 		(effects
@@ -646,6 +646,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -816,7 +827,7 @@
 			)
 		)
 		(pin "G_Lower_Cmd" output
-			(at 127 74.93 0)
+			(at 127 77.47 0)
 			(uuid "0ccacb6b-f2d9-4256-b5ff-71d2d6b5919d")
 			(effects
 				(font
@@ -826,7 +837,7 @@
 			)
 		)
 		(pin "G_Upper_Cmd" output
-			(at 127 77.47 0)
+			(at 127 74.93 0)
 			(uuid "331e7ce9-88b0-4a8d-8024-99c0a7a82dda")
 			(effects
 				(font

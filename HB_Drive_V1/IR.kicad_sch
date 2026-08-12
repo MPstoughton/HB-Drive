@@ -3045,16 +3045,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 105.41) (xy 110.49 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bcdd153-7907-4b10-826e-66af9beed0d1")
-	)
-	(wire
-		(pts
 			(xy 157.48 180.34) (xy 157.48 176.53)
 		)
 		(stroke
@@ -3165,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 104.14) (xy 113.03 104.14)
+			(xy 109.22 104.14) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4165,16 +4155,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 105.41) (xy 101.6 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd8562e-f514-4971-9221-a594d1a74004")
-	)
-	(wire
-		(pts
 			(xy 170.18 50.8) (xy 170.18 55.88)
 		)
 		(stroke
@@ -4943,16 +4923,6 @@
 		)
 		(uuid "fe9fd0cc-9500-48cf-9cf2-1151c7dd1e38")
 	)
-	(label "-I_Fdbk"
-		(at 101.6 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dd17989-4429-451c-bfde-639dd610e781")
-	)
 	(label "-Prop_Reg_Cmd"
 		(at 261.62 171.45 0)
 		(effects
@@ -5064,7 +5034,7 @@
 		)
 		(uuid "41601bd5-13af-41fc-ab89-4d7fcbde7e56")
 	)
-	(hierarchical_label "I_Fdbk"
+	(hierarchical_label "-I_Fdbk"
 		(shape output)
 		(at 200.66 43.18 0)
 		(effects
@@ -5141,6 +5111,17 @@
 		)
 		(uuid "c3d21951-f769-4ecc-be8c-be9babe190fc")
 	)
+	(hierarchical_label "-I_Fdbk"
+		(shape output)
+		(at 109.22 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6eff77a-c85c-4246-b6da-53de071701e9")
+	)
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 129.54 104.14 90)
@@ -5153,8 +5134,7 @@
 		(dnp no)
 		(uuid "01ef43f9-4e9e-4e07-bac7-4857367b3669")
 		(property "Reference" "R310"
-			(at 129.794 101.346 90)
-			(hide yes)
+			(at 129.794 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5165,7 +5145,6 @@
 		)
 		(property "Value" "10kΩ 1%"
 			(at 129.794 101.6 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5198,6 +5177,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 129.54 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 129.54 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,6 +5354,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 182.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d79dac56-f8d9-449e-b8ee-1b2e7449b090")
 		)
@@ -5409,8 +5410,7 @@
 		(dnp no)
 		(uuid "0585d0f2-666b-4a2c-b3b9-a77d2ec978d9")
 		(property "Reference" "C303"
-			(at 306.07 67.31 90)
-			(hide yes)
+			(at 303.276 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5420,7 +5420,7 @@
 			)
 		)
 		(property "Value" "10uF 10%"
-			(at 309.118 69.85 90)
+			(at 307.594 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5462,6 +5462,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 303.53 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bceb929e-e714-44fb-86c0-93257a20f283")
 		)
@@ -5490,7 +5501,6 @@
 		(uuid "077f5a85-9a08-4d50-8b55-99ca95d2d000")
 		(property "Reference" "R312"
 			(at 307.34 59.69 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5533,6 +5543,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 303.53 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 303.53 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5646,8 +5667,7 @@
 		(dnp no)
 		(uuid "0ca301c3-fcc1-42f4-9968-001d6f74e9ec")
 		(property "Reference" "C311"
-			(at 153.67 190.5 90)
-			(hide yes)
+			(at 151.13 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5690,6 +5710,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 151.13 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 191.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,6 +5812,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 195.58 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c564668-53ba-4150-9a0b-5bc418f7bfbc")
 		)
@@ -5848,6 +5890,17 @@
 			)
 		)
 		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 184.15 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 184.15 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5956,6 +6009,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 222.25 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d79dac56-f8d9-449e-b8ee-1b2e7449b092")
 		)
@@ -5990,6 +6054,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "148934e1-847e-4078-9c71-35461ca94864")
+		(property "Reference" "TP308"
+			(at 146.05 53.848 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.32 53.8479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 149.86 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 144.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da039246-6618-45f9-b19b-bc581c2f3cda")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
+					(reference "TP308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 160.02 270)
 		(unit 1)
@@ -6001,8 +6155,7 @@
 		(dnp no)
 		(uuid "16a0c6ad-fca0-483a-8a52-38992c83974d")
 		(property "Reference" "C305"
-			(at 118.11 158.75 90)
-			(hide yes)
+			(at 115.57 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6054,6 +6207,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 115.57 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "187f5789-5f3c-4cb5-846f-eb258a889ef7")
 		)
@@ -6090,9 +6254,8 @@
 				)
 			)
 		)
-		(property "Value" "PV36W204C01B00"
+		(property "Value" "200 kΩ"
 			(at 170.942 38.1 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6126,6 +6289,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 173.99 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6221,6 +6395,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 162.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed627b94-4b4e-47b2-94f7-570eb4ad6820")
 		)
@@ -6254,9 +6439,8 @@
 				)
 			)
 		)
-		(property "Value" "PV36W104C01B00"
+		(property "Value" "100 kΩ"
 			(at 273.05 34.29 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6290,6 +6474,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 276.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 276.86 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6374,6 +6569,17 @@
 		)
 		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
 			(at 133.35 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6481,6 +6687,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 312.42 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d79dac56-f8d9-449e-b8ee-1b2e7449b093")
 		)
@@ -6569,6 +6786,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 118.11 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6711,9 +6939,8 @@
 				)
 			)
 		)
-		(property "Value" "PV36W104C01B00"
+		(property "Value" "100 kΩ"
 			(at 268.732 71.12 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6757,6 +6984,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 271.78 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81daacf9-fef2-4d25-a3d6-6815bd1ad5a1")
 		)
@@ -6788,7 +7026,6 @@
 		(uuid "28ad9434-9f9c-433d-89ac-e85c77c04f44")
 		(property "Reference" "R328"
 			(at 205.74 49.022 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6831,6 +7068,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 208.28 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 208.28 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6910,6 +7158,17 @@
 			)
 		)
 		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 308.61 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 308.61 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7042,7 +7301,7 @@
 		(dnp no)
 		(uuid "334b5fb3-8ea9-4d97-9463-07086f6b71cd")
 		(property "Reference" "TP306"
-			(at 327.152 168.656 0)
+			(at 325.374 167.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7087,6 +7346,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 328.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 328.93 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7251,6 +7521,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 134.62 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1d986c5-f5e6-4eb3-958f-2f258126b600")
 		)
@@ -7373,8 +7654,7 @@
 		(dnp no)
 		(uuid "3719638a-2579-4fc1-a4ab-e1769b0d9e90")
 		(property "Reference" "R326"
-			(at 306.578 162.56 90)
-			(hide yes)
+			(at 299.974 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7426,6 +7706,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 302.26 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4707a6e-c928-43ec-a9bb-a36f12f17779")
 		)
@@ -7436,87 +7727,6 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
 					(reference "R326")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 292.1 176.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "375d7dcb-9e4c-466b-8aa8-2a7b26c26404")
-		(property "Reference" "R325"
-			(at 292.354 173.736 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ 1%"
-			(at 292.354 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 292.1 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "deb13932-607e-4e37-bc45-cb9b063a33ec")
-		)
-		(pin "2"
-			(uuid "82c7fb40-7225-40be-9527-3c709116f4e1")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
-					(reference "R325")
 					(unit 1)
 				)
 			)
@@ -7587,6 +7797,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1d986c5-f5e6-4eb3-958f-2f258126b601")
 		)
@@ -7633,7 +7854,6 @@
 		(uuid "3ecd953e-7c4a-4319-8bf1-c66952416798")
 		(property "Reference" "R314"
 			(at 323.596 111.76 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7643,7 +7863,7 @@
 			)
 		)
 		(property "Value" "402kΩ 1%"
-			(at 326.644 113.284 0)
+			(at 326.39 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7675,6 +7895,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 320.04 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 320.04 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7867,8 +8098,7 @@
 		(dnp no)
 		(uuid "414cdc18-8953-4e10-af3f-8967e8cd38fc")
 		(property "Reference" "C301"
-			(at 294.64 93.98 90)
-			(hide yes)
+			(at 292.354 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7920,6 +8150,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 292.1 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04973317-fed6-478e-af9b-15072d848dae")
 		)
@@ -7947,8 +8188,7 @@
 		(dnp no)
 		(uuid "4aac2bcb-99ee-4054-a428-c650bfeadfdc")
 		(property "Reference" "R307"
-			(at 127 92.202 90)
-			(hide yes)
+			(at 129.794 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7958,7 +8198,7 @@
 			)
 		)
 		(property "Value" "10kΩ 1%"
-			(at 129.286 94.234 90)
+			(at 129.54 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7991,6 +8231,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 129.54 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,8 +8355,7 @@
 		(dnp no)
 		(uuid "566c757f-94f7-4b4b-9b26-78427a0c9006")
 		(property "Reference" "C313"
-			(at 154.94 208.28 90)
-			(hide yes)
+			(at 152.4 205.994 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8157,6 +8407,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 152.4 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8c11d598-82f9-448a-9ce0-dd18e4301b0e")
 		)
@@ -8184,8 +8445,7 @@
 		(dnp no)
 		(uuid "5737ac05-0d79-4794-bf7d-d0d03b9def12")
 		(property "Reference" "C306"
-			(at 153.67 143.51 90)
-			(hide yes)
+			(at 151.13 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8228,6 +8488,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 151.13 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8317,6 +8588,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 288.29 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b8585c1a-fc40-4cc5-b72a-2f2ce53b5a2d")
 		)
@@ -8362,7 +8644,7 @@
 		(dnp no)
 		(uuid "5a0877cb-c3b6-45d4-bdf6-d1c7f42ab1f0")
 		(property "Reference" "J303"
-			(at 334.01 166.116 90)
+			(at 332.74 165.608 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8384,7 +8666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 334.01 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8408,6 +8690,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 334.01 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 334.01 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8444,8 +8737,7 @@
 		(dnp no)
 		(uuid "63998a7e-18f1-4d9e-81f7-1a9fe03bcee2")
 		(property "Reference" "C304"
-			(at 118.11 143.51 90)
-			(hide yes)
+			(at 115.57 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8488,6 +8780,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 115.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 115.57 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8601,8 +8904,7 @@
 		(dnp no)
 		(uuid "65ee02f6-ec63-4eb5-af33-2a95a928022c")
 		(property "Reference" "R308"
-			(at 129.794 96.266 90)
-			(hide yes)
+			(at 129.794 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8613,7 +8915,6 @@
 		)
 		(property "Value" "10kΩ 1%"
 			(at 129.794 96.52 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8655,6 +8956,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 129.54 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c35ed458-bf3f-4047-a88a-a34d210ec85a")
 		)
@@ -8682,8 +8994,7 @@
 		(dnp no)
 		(uuid "66c67b4a-f5e2-4fb3-b52d-1f3eca7db263")
 		(property "Reference" "C309"
-			(at 118.11 190.5 90)
-			(hide yes)
+			(at 115.57 188.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8726,6 +9037,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 115.57 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 115.57 191.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,6 +9137,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 304.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0c0b4dd1-f769-4a64-b385-75048454d608")
 		)
@@ -8861,7 +9194,6 @@
 		(uuid "6900bf0b-d772-4a74-afe6-14826612be5d")
 		(property "Reference" "R315"
 			(at 323.85 123.444 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8871,7 +9203,7 @@
 			)
 		)
 		(property "Value" "6.65kΩ 1%"
-			(at 326.898 124.714 0)
+			(at 326.898 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8913,6 +9245,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 320.04 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5d5fbfa-b489-4d7b-b9ce-aa119dba494e")
 		)
@@ -8941,7 +9284,6 @@
 		(uuid "6ced3bf5-d2ff-499b-8941-6d226434d655")
 		(property "Reference" "R313"
 			(at 149.86 87.122 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8984,6 +9326,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9451,6 @@
 		(uuid "7562cb7b-b885-4219-b969-3b0f47caa089")
 		(property "Reference" "R322"
 			(at 180.34 88.392 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9141,6 +9493,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 182.88 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 182.88 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9232,6 +9595,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 234.95 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e476bfd2-7b14-41ce-a27d-2ac55b5c4254")
 		)
@@ -9239,6 +9613,96 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
 					(reference "TP307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 292.1 176.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7964bd00-45a9-4f0a-8657-311c7d29ed1b")
+		(property "Reference" "R325"
+			(at 292.354 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kΩ 1%"
+			(at 293.37 173.736 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 292.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 292.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 292.1 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8399fd5b-3bb6-4b42-9ff6-31d5ab05050b")
+		)
+		(pin "2"
+			(uuid "534ba490-5872-4620-af27-d5555fa8cf33")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
+					(reference "R325")
 					(unit 1)
 				)
 			)
@@ -9543,6 +10007,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 325.12 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52404202-0976-4f9a-82be-6a7d5443319e")
 		)
@@ -9699,6 +10174,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 193.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26760698-7864-46ae-9431-22cd0db8d2fd")
 		)
@@ -9801,8 +10287,7 @@
 		(dnp no)
 		(uuid "964d872f-a3ee-4ae1-af14-fa28d4e561e8")
 		(property "Reference" "R304"
-			(at 275.336 99.314 90)
-			(hide yes)
+			(at 277.876 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9854,6 +10339,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 278.13 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7481c127-5c6a-45ef-93aa-d7c67c0f4449")
 		)
@@ -9881,8 +10377,7 @@
 		(dnp no)
 		(uuid "96e0c30a-ccd8-442e-a5b5-982fdb3196ed")
 		(property "Reference" "C307"
-			(at 153.67 158.75 90)
-			(hide yes)
+			(at 151.13 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9925,6 +10420,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 151.13 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,6 +10520,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 133.35 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "fe94577a-f159-41e7-9450-41ef00f44d5d")
 		)
@@ -10049,87 +10566,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 292.1 173.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d698865-5c9d-48ad-ac0e-02a7f83e71c3")
-		(property "Reference" "R324"
-			(at 292.354 171.196 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ 1%"
-			(at 292.354 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 292.1 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 292.1 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c9c75f0-45b0-4425-9e40-2ea069b009c9")
-		)
-		(pin "2"
-			(uuid "1c9e7d09-9ae8-41ee-a8b3-86620bf47897")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
-					(reference "R324")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 163.83 55.88 270)
 		(unit 1)
 		(body_style 1)
@@ -10140,8 +10576,7 @@
 		(dnp no)
 		(uuid "9eb6d054-23e4-4505-af7a-5359e1ea3607")
 		(property "Reference" "R317"
-			(at 161.29 51.562 90)
-			(hide yes)
+			(at 164.084 53.086 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10150,9 +10585,8 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ 1%"
+		(property "Value" "5kΩ 1%"
 			(at 163.576 52.832 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10185,6 +10619,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 163.83 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 163.83 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10221,8 +10666,7 @@
 		(dnp no)
 		(uuid "a1690c3f-2853-48c0-ae2e-e226a36b8f96")
 		(property "Reference" "C302"
-			(at 294.64 104.14 90)
-			(hide yes)
+			(at 292.354 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10265,6 +10709,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 292.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 292.1 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,6 +10811,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 359.41 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e57c1c49-876d-4b46-8ac2-afa99025a037")
 		)
@@ -10423,6 +10889,17 @@
 			)
 		)
 		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 153.67 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 153.67 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10555,8 +11032,7 @@
 		(dnp no)
 		(uuid "aae03b11-0b8e-4fa8-831b-9fd47d3e5f43")
 		(property "Reference" "R318"
-			(at 330.2 103.632 90)
-			(hide yes)
+			(at 332.232 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10566,7 +11042,7 @@
 			)
 		)
 		(property "Value" "10kΩ 1%"
-			(at 332.486 104.902 90)
+			(at 332.994 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10599,6 +11075,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 332.74 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 332.74 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10799,9 +11286,8 @@
 				)
 			)
 		)
-		(property "Value" "PV36W104C01B00"
+		(property "Value" "100 kΩ"
 			(at 121.92 40.132 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10835,6 +11321,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 116.84 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 116.84 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10919,6 +11416,17 @@
 		)
 		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
 			(at 133.35 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11050,8 +11558,7 @@
 		(dnp no)
 		(uuid "bd5bf3ae-9f6f-4209-8f3f-967111a76273")
 		(property "Reference" "R302"
-			(at 273.304 41.656 90)
-			(hide yes)
+			(at 272.288 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11061,7 +11568,7 @@
 			)
 		)
 		(property "Value" "10kΩ 1%"
-			(at 273.304 41.91 90)
+			(at 271.78 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11094,6 +11601,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 273.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 273.05 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11130,8 +11648,7 @@
 		(dnp no)
 		(uuid "bd8870ff-f41e-46dd-bc00-67042f018adc")
 		(property "Reference" "R309"
-			(at 129.794 98.806 90)
-			(hide yes)
+			(at 129.794 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11142,7 +11659,6 @@
 		)
 		(property "Value" "10kΩ 1%"
 			(at 129.794 99.06 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11175,6 +11691,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 129.54 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,6 +11868,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 134.62 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0c0b4dd1-f769-4a64-b385-75048454d609")
 		)
@@ -11386,8 +11924,7 @@
 		(dnp no)
 		(uuid "c535d3c8-7097-4df6-9c05-0fe7cc9c0a2b")
 		(property "Reference" "R323"
-			(at 289.56 167.132 90)
-			(hide yes)
+			(at 292.354 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11396,8 +11933,8 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ 1%"
-			(at 291.846 169.164 90)
+		(property "Value" "100kΩ 1%"
+			(at 290.83 162.052 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11430,6 +11967,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 292.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 292.1 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11544,8 +12092,7 @@
 		(dnp no)
 		(uuid "c72a1eee-cfa6-470a-a8cc-eaad431337e2")
 		(property "Reference" "C312"
-			(at 119.38 208.28 90)
-			(hide yes)
+			(at 116.84 205.232 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11597,6 +12144,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 116.84 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0392d0e-286d-46a6-805e-d9bcb54b8529")
 		)
@@ -11624,8 +12182,7 @@
 		(dnp no)
 		(uuid "c8413272-4837-48de-96c2-e467500ab499")
 		(property "Reference" "C308"
-			(at 118.11 175.26 90)
-			(hide yes)
+			(at 115.316 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11668,6 +12225,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 115.57 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11757,6 +12325,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 347.98 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d79dac56-f8d9-449e-b8ee-1b2e7449b094")
 		)
@@ -11803,7 +12382,6 @@
 		(uuid "cca10a10-6b51-4144-8ba4-388c3f503dfb")
 		(property "Reference" "R329"
 			(at 222.25 41.402 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11855,6 +12433,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 224.79 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2ace4b0-4668-4596-a036-711596e36b7d")
 		)
@@ -11891,9 +12480,8 @@
 				)
 			)
 		)
-		(property "Value" "PV36W104C01B00"
+		(property "Value" "100 kΩ"
 			(at 336.042 96.52 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11927,6 +12515,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 339.09 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 339.09 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12020,6 +12619,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 281.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ca0f06dd-29ac-464b-80a1-ddc35fbef49a")
 		)
@@ -12048,6 +12658,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 292.1 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1becbcf-52be-4389-9954-53435395d9f7")
+		(property "Reference" "R324"
+			(at 292.354 166.624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kΩ 1%"
+			(at 293.37 171.196 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 292.1 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc3deff4-619d-469e-92f5-adb9c2aec003")
+		)
+		(pin "2"
+			(uuid "282c73bc-56d0-479d-8fcd-2863b12be20e")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
+					(reference "R324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 151.13 176.53 270)
 		(unit 1)
@@ -12059,8 +12759,7 @@
 		(dnp no)
 		(uuid "d2dc6575-1d74-439a-9009-693fdc2d9fdd")
 		(property "Reference" "C310"
-			(at 153.67 175.26 90)
-			(hide yes)
+			(at 151.13 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12103,6 +12802,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12226,9 +12936,8 @@
 				)
 			)
 		)
-		(property "Value" "PV36W104C01B00"
+		(property "Value" "100 kΩ"
 			(at 300.482 153.67 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12262,6 +12971,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 303.53 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 303.53 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12611,7 +13331,6 @@
 		(uuid "e69b218c-049a-4dda-b5e4-6cae37013920")
 		(property "Reference" "R311"
 			(at 303.022 94.488 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12663,6 +13382,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 299.72 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b07f4aa2-3dee-47fb-a3bd-c86fcfc65276")
 		)
@@ -12690,8 +13420,7 @@
 		(dnp no)
 		(uuid "ea9b4919-6225-484f-b96b-b2eaf564bea2")
 		(property "Reference" "R316"
-			(at 161.29 46.482 90)
-			(hide yes)
+			(at 163.83 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12700,8 +13429,8 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ 1%"
-			(at 163.576 47.752 90)
+		(property "Value" "5kΩ 1%"
+			(at 164.084 44.958 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12734,6 +13463,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 163.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 163.83 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12847,8 +13587,7 @@
 		(dnp no)
 		(uuid "eeb57757-02e2-42fa-a147-18f9019e6a86")
 		(property "Reference" "R305"
-			(at 274.066 113.284 0)
-			(hide yes)
+			(at 279.654 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12900,6 +13639,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 284.48 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92c6250f-cf5e-4063-9c46-bd3b14048f1b")
 		)
@@ -12928,7 +13678,6 @@
 		(uuid "f645a7bb-dd46-448d-99fd-cc92a548e279")
 		(property "Reference" "R319"
 			(at 165.1 94.742 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12971,6 +13720,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
