@@ -10,4 +10,5 @@
 	(lib (name "USB-B-S-VT") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/USB_B_S_VT/USB-B-S-VT.kicad_sym") (options "") (descr ""))
 	(lib (name "5227699-1") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/5227699/5227699-1.kicad_sym") (options "") (descr ""))
 	(lib (name "PTS636SL43SMTRLFS") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/PTS636SL43SMTRLFS/PTS636SL43SMTRLFS.kicad_sym") (options "") (descr ""))
+	(lib (name "30306-6002HB") (type "KiCad") (uri "${KIPRJMOD}/Custom Components/30306_6002/30306-6002HB.kicad_sym") (options "") (descr ""))
 )

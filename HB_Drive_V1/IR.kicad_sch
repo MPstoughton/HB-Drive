@@ -10586,7 +10586,8 @@
 			)
 		)
 		(property "Value" "5kΩ 1%"
-			(at 163.576 52.832 90)
+			(at 163.322 58.42 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11287,7 +11288,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 121.92 40.132 0)
+			(at 112.776 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

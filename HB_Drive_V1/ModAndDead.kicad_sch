@@ -5,14 +5,14 @@
 	(uuid "6c9a09b6-b3d1-4fda-a8b6-37ae79a242f7")
 	(paper "A3")
 	(lib_symbols
-		(symbol "74xGxx:74LVC1G04"
+		(symbol "74xGxx:74AHC1G125"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 7.62 0)
+				(at -2.54 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "74LVC1G04"
-				(at 5.08 -7.62 0)
+			(property "Value" "74AHC1G125"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -42,7 +42,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +53,196 @@
 					)
 				)
 			)
-			(property "Description" "Single NOT Gate, Low-Voltage CMOS"
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AHC1G125_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AHC1G125_1_1"
+				(pin input inverted
+					(at 0 10.16 270)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74AHC1GU04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1GU04"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "74AHC1G04, Single NOT Gate, Low-Voltage CMOS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -75,7 +264,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+			(property "ki_fp_filters" "SOT* SG-*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,7 +275,7 @@
 					)
 				)
 			)
-			(symbol "74LVC1G04_0_1"
+			(symbol "74AHC1GU04_0_1"
 				(polyline
 					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
@@ -100,7 +289,7 @@
 					)
 				)
 			)
-			(symbol "74LVC1G04_1_1"
+			(symbol "74AHC1GU04_1_1"
 				(pin no_connect line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -157,195 +346,6 @@
 					)
 				)
 				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "74xGxx:74LVC1G34"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LVC1G34"
-				(at 5.08 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g34.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Buffer Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Single Gate Buff LVC CMOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "74LVC1G34_0_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC1G34_1_1"
-				(pin free line
-					(at -2.54 -10.16 90)
-					(length 6.35)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 12.7 0 180)
 					(length 7.62)
 					(name ""
@@ -3437,6 +3437,12 @@
 		(uuid "30c8011f-b002-4de0-892f-4e5a1bd1d17c")
 	)
 	(junction
+		(at 347.98 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a8c88cd-f342-43e1-bbe8-02f33e4d7974")
+	)
+	(junction
 		(at 337.82 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3485,6 +3491,12 @@
 		(uuid "857f9170-3188-4125-a9dd-af409022f696")
 	)
 	(junction
+		(at 347.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9013f446-a07b-40d9-97b3-69a3a6718dca")
+	)
+	(junction
 		(at 307.34 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3509,10 +3521,22 @@
 		(uuid "b0ac6524-8f73-4d2d-b49e-7b938f434fce")
 	)
 	(junction
+		(at 347.98 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1088551-7775-43ed-9d10-14aa3bbc679a")
+	)
+	(junction
 		(at 337.82 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4fa6ec0-4537-4773-9e6a-d366b274cb84")
+	)
+	(junction
+		(at 347.98 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c148cc1d-4e16-4a0b-9bf2-3e039a5fc3b1")
 	)
 	(junction
 		(at 337.82 143.51)
@@ -3567,6 +3591,10 @@
 		(uuid "70a80bb6-d86e-4a08-827e-d191a805907c")
 	)
 	(no_connect
+		(at 284.48 96.52)
+		(uuid "bad7cb39-bc74-48b1-8e3d-3bb487c28a37")
+	)
+	(no_connect
 		(at 96.52 105.41)
 		(uuid "c4cf5c07-0ef6-4b31-b45a-3da13a3b6fda")
 	)
@@ -3577,6 +3605,10 @@
 	(no_connect
 		(at 93.98 105.41)
 		(uuid "eb4d698e-e983-46f3-a0f7-f55396a3020d")
+	)
+	(no_connect
+		(at 189.23 93.98)
+		(uuid "f9d48d4b-2b6c-4234-b6e1-d60dd89bb17c")
 	)
 	(wire
 		(pts
@@ -3590,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 102.87) (xy 351.79 102.87)
+			(xy 302.26 102.87) (xy 347.98 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3617,6 +3649,16 @@
 			(type default)
 		)
 		(uuid "05809bb5-460d-4563-a3d2-6fd6ec1248fd")
+	)
+	(wire
+		(pts
+			(xy 347.98 107.95) (xy 351.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e51092f-4ff3-4a4a-994d-d2f49b8d4612")
 	)
 	(wire
 		(pts
@@ -3780,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 128.27) (xy 351.79 128.27)
+			(xy 302.26 128.27) (xy 347.98 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4072,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 107.95) (xy 351.79 107.95)
+			(xy 342.9 107.95) (xy 347.98 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4300,6 +4342,26 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 128.27) (xy 351.79 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcfa02a-552b-474f-81d0-870aa9156cde")
+	)
+	(wire
+		(pts
+			(xy 347.98 133.35) (xy 351.79 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdbf939-7274-4409-9f0d-4a162810e911")
+	)
+	(wire
+		(pts
 			(xy 337.82 119.38) (xy 337.82 118.11)
 		)
 		(stroke
@@ -4390,6 +4452,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 102.87) (xy 351.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb1ec93-00c8-421a-878f-d83ccd94c997")
+	)
+	(wire
+		(pts
 			(xy 273.05 121.92) (xy 279.4 121.92)
 		)
 		(stroke
@@ -4430,7 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 133.35) (xy 351.79 133.35)
+			(xy 342.9 133.35) (xy 347.98 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5704,6 +5776,94 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:74AHC1G125")
+		(at 284.48 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d3f7c16-49d6-4ee4-abc4-1bd59418cf93")
+		(property "Reference" "U403"
+			(at 289.56 99.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G125"
+			(at 291.338 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 284.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 284.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 284.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a398390-802e-429d-886b-5575677d98c5")
+		)
+		(pin "3"
+			(uuid "8798dd57-4d55-4d9d-a727-2ae7208d7573")
+		)
+		(pin "4"
+			(uuid "777210f9-fb37-4f84-a8dd-b6637d5a1614")
+		)
+		(pin "2"
+			(uuid "ca6ca945-dba6-4552-a68e-4a8d3b882fc3")
+		)
+		(pin "5"
+			(uuid "bcff8345-0f76-49c0-bf20-1fa2f2c0408c")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "U403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 342.9 139.7 0)
 		(unit 1)
@@ -5715,7 +5875,7 @@
 		(dnp no)
 		(uuid "3e7a5730-7609-4190-beea-24edfd76b3e2")
 		(property "Reference" "R409"
-			(at 346.71 137.922 0)
+			(at 346.71 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5725,7 +5885,7 @@
 			)
 		)
 		(property "Value" "100KΩ"
-			(at 347.726 139.954 0)
+			(at 347.726 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5788,6 +5948,96 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
 					(reference "R409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 347.98 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4eaf4a54-1a64-4d52-b34e-f30de140637f")
+		(property "Reference" "TP402"
+			(at 346.202 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 350.52 100.8379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 353.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 347.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 347.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a24bf59-31b2-4c77-b458-c8ba67709fb7")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "TP402")
 					(unit 1)
 				)
 			)
@@ -5961,6 +6211,94 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
 					(reference "#PWR0408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1GU04")
+		(at 189.23 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "547d0b54-863f-4ac8-aa17-db8936584a40")
+		(property "Reference" "U404"
+			(at 190.754 122.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1GU04"
+			(at 194.818 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 189.23 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 189.23 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "74AHC1G04, Single NOT Gate, Low-Voltage CMOS"
+			(at 189.23 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1469dac9-3002-4214-91d7-829275ab292f")
+		)
+		(pin "1"
+			(uuid "16cab804-5e5a-4fe6-bc1f-36bacd229199")
+		)
+		(pin "4"
+			(uuid "b744d784-5afd-48b1-8ae5-f0bf12fa00ae")
+		)
+		(pin "5"
+			(uuid "c92ee0bd-5ecf-48ca-96ab-e60a8092562d")
+		)
+		(pin "3"
+			(uuid "f8627ca1-6370-4298-870e-d07c9c65fb47")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "U404")
 					(unit 1)
 				)
 			)
@@ -6494,8 +6832,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G34")
-		(at 189.23 104.14 0)
+		(lib_id "Connector:TestPoint")
+		(at 347.98 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6503,29 +6841,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7d8bf98b-6276-4f50-9afb-681a5c4d27e9")
-		(property "Reference" "U403"
-			(at 195.58 96.012 0)
+		(uuid "7b6f5ef5-0c66-4b53-8f5d-d27c16474d6e")
+		(property "Reference" "TP404"
+			(at 347.472 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "74LVC1G34"
-			(at 195.58 98.552 0)
+		(property "Value" "TestPoint"
+			(at 350.52 126.2379 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 104.14 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 353.06 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,8 +6876,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g34.pdf"
-			(at 189.23 104.14 0)
+		(property "Datasheet" ""
+			(at 353.06 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,8 +6887,8 @@
 				)
 			)
 		)
-		(property "Description" "Single Buffer Gate, Low-Voltage CMOS"
-			(at 189.23 104.14 0)
+		(property "Description" "test point"
+			(at 347.98 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6558,7 +6899,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 189.23 104.14 0)
+			(at 347.98 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,25 +6909,13 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c08a7398-0c7e-4cab-8a22-bf1455328672")
-		)
-		(pin "4"
-			(uuid "c231e492-2c3a-435c-a7bf-dd9c0bde44f9")
-		)
-		(pin "5"
-			(uuid "299b212a-642b-442c-b3f6-4bc13d7de725")
-		)
 		(pin "1"
-			(uuid "a92ba97d-5aca-40d2-bad1-9d3200581266")
-		)
-		(pin "3"
-			(uuid "55b4994b-73fa-4b18-9eb3-82061ab3ff21")
+			(uuid "a01f9c4b-adb9-496e-bdde-efa3b974bae4")
 		)
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
-					(reference "U403")
+					(reference "TP404")
 					(unit 1)
 				)
 			)
@@ -6695,6 +7024,94 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
 					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G125")
+		(at 189.23 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84637dd8-d762-4274-8cfb-bd16fa7b0006")
+		(property "Reference" "U406"
+			(at 194.31 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G125"
+			(at 196.088 99.822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 189.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 189.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 189.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24996837-6dea-4a66-8990-123847d6a9fe")
+		)
+		(pin "3"
+			(uuid "aec60168-c742-494b-b876-d56d4b3c83bd")
+		)
+		(pin "4"
+			(uuid "8d20f877-9f1f-474c-b1a3-14ab9a21cf47")
+		)
+		(pin "2"
+			(uuid "d59c1418-551b-4a19-9f70-b907c6849a4a")
+		)
+		(pin "5"
+			(uuid "f26da9e6-3a0a-4fa0-84ee-c4f2bec9d0bf")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "U406")
 					(unit 1)
 				)
 			)
@@ -6869,6 +7286,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 347.98 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "918a79ea-553f-4f17-8da8-d94d5da70309")
+		(property "Reference" "TP403"
+			(at 355.346 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 345.44 109.9821 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 342.9 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 347.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 347.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d7de269-7510-45af-97e5-4264b36c9e40")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "TP403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 121.92 0)
 		(unit 1)
@@ -7024,105 +7531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G04")
-		(at 284.48 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9838d916-70ff-49d8-9831-da5947796202")
-		(property "Reference" "U405"
-			(at 289.814 123.698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G04"
-			(at 289.814 126.238 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
-			(at 284.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single NOT Gate, Low-Voltage CMOS"
-			(at 284.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 284.48 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b6c7853-2266-438e-871d-21988025d36d")
-		)
-		(pin "5"
-			(uuid "7e360f12-f6b2-47ab-aff3-d4a1e11054cb")
-		)
-		(pin "2"
-			(uuid "6571bec8-061b-4e4e-910b-16d994778b5a")
-		)
-		(pin "4"
-			(uuid "7888e521-840b-4556-aa47-31cd5c2c9569")
-		)
-		(pin "3"
-			(uuid "4b097b50-88b1-45ec-a85d-5851611ed395")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
-					(reference "U405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 82.55 123.19 270)
 		(unit 1)
@@ -7207,105 +7615,6 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
 					(reference "C402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:74LVC1G04")
-		(at 189.23 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4aaf9ee-6310-46f7-9767-6aa56c862ce9")
-		(property "Reference" "U404"
-			(at 194.564 121.158 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G04"
-			(at 194.564 123.698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
-			(at 189.23 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single NOT Gate, Low-Voltage CMOS"
-			(at 189.23 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 189.23 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a800f99-0749-43c3-bb7c-9d6d212a417a")
-		)
-		(pin "5"
-			(uuid "d7423372-cfe2-42b4-bfc1-49d3d573f22c")
-		)
-		(pin "2"
-			(uuid "4158470d-e9a3-4dac-8772-c48dc2713558")
-		)
-		(pin "4"
-			(uuid "48b33e81-d580-4df9-868a-83d184654f38")
-		)
-		(pin "3"
-			(uuid "577f6854-aa9e-46e1-8540-5e4e6d71b1e5")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
-					(reference "U404")
 					(unit 1)
 				)
 			)
@@ -7695,7 +8004,7 @@
 		(dnp no)
 		(uuid "b1104bac-b04c-407d-be9a-6b7555d68f40")
 		(property "Reference" "R408"
-			(at 347.218 112.776 0)
+			(at 346.71 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7705,7 +8014,7 @@
 			)
 		)
 		(property "Value" "100KΩ"
-			(at 347.726 114.554 0)
+			(at 347.218 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8288,8 +8597,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G34")
-		(at 284.48 106.68 0)
+		(lib_id "Connector:TestPoint")
+		(at 347.98 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8297,29 +8606,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c24ca2f7-91c7-415b-8bd6-d91a74ee524b")
-		(property "Reference" "U406"
-			(at 290.83 98.552 0)
+		(uuid "bd616070-39a9-4431-8cc8-72312b2487b7")
+		(property "Reference" "TP405"
+			(at 355.346 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "74LVC1G34"
-			(at 290.83 101.092 0)
+		(property "Value" "TestPoint"
+			(at 345.44 135.3821 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 284.48 106.68 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 342.9 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8329,8 +8641,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g34.pdf"
-			(at 284.48 106.68 0)
+		(property "Datasheet" ""
+			(at 342.9 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8340,8 +8652,8 @@
 				)
 			)
 		)
-		(property "Description" "Single Buffer Gate, Low-Voltage CMOS"
-			(at 284.48 106.68 0)
+		(property "Description" "test point"
+			(at 347.98 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8352,7 +8664,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 284.48 106.68 0)
+			(at 347.98 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,25 +8674,13 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "eab565fd-5274-4af0-a8e9-ff2db482f5a9")
-		)
-		(pin "4"
-			(uuid "28cb2e86-0f47-4419-aea9-98ef41a27700")
-		)
-		(pin "5"
-			(uuid "63917d40-d582-4b60-bfbc-1edb8ca1e7b4")
-		)
 		(pin "1"
-			(uuid "86439777-773d-404f-a17e-fb8d56c72321")
-		)
-		(pin "3"
-			(uuid "0ac8eba3-91d8-4973-a174-99a7a15ac177")
+			(uuid "db43c730-a4b1-4f57-841f-f60b7a9f559b")
 		)
 		(instances
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
-					(reference "U406")
+					(reference "TP405")
 					(unit 1)
 				)
 			)
@@ -8666,7 +8966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 210.82 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9076,6 +9376,94 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
 					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1GU04")
+		(at 284.48 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f24641a4-977a-421f-9053-572978ed043b")
+		(property "Reference" "U405"
+			(at 286.004 124.968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1GU04"
+			(at 290.068 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "74AHC1G04, Single NOT Gate, Low-Voltage CMOS"
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b24d5d7-f29e-43e8-8272-716d9afdb4bc")
+		)
+		(pin "1"
+			(uuid "08b08128-888d-40f7-82b9-5cb7426c5900")
+		)
+		(pin "4"
+			(uuid "a05092c7-4666-4d9d-b71c-c397865ec684")
+		)
+		(pin "5"
+			(uuid "74f3af88-4195-40db-9c4f-290a89f31ce9")
+		)
+		(pin "3"
+			(uuid "ab56e78d-d748-4618-9bc9-9b6793163659")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/28e2d9d3-ebce-4623-8c7e-52f93025d826/97cfd595-263d-4fe9-9bac-f56dcdbd61fb"
+					(reference "U405")
 					(unit 1)
 				)
 			)
