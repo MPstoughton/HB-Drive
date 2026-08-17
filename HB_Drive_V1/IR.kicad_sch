@@ -400,164 +400,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2762,6 +2604,12 @@
 		(uuid "8d5f1e6e-01a1-40d9-873a-1eef5bb02cfc")
 	)
 	(junction
+		(at 328.93 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd475a1-1193-44ba-8110-6d1bb93db3d2")
+	)
+	(junction
 		(at 134.62 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2772,12 +2620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a66437c0-6948-4691-9b70-10df2fd8c361")
-	)
-	(junction
-		(at 328.93 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aac38769-90a0-4c03-b280-da95fb46716e")
 	)
 	(junction
 		(at 299.72 105.41)
@@ -4185,7 +4027,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 173.99) (xy 334.01 173.99)
+			(xy 328.93 173.99) (xy 332.74 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4302,16 +4144,6 @@
 			(type default)
 		)
 		(uuid "b163f38d-d75a-4d45-ba1c-7858c3e7ce11")
-	)
-	(wire
-		(pts
-			(xy 342.9 173.99) (xy 336.55 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e9ce13-e783-4dda-865c-cbb1385ddbc0")
 	)
 	(wire
 		(pts
@@ -5102,7 +4934,7 @@
 	)
 	(hierarchical_label "D_Cmd"
 		(shape output)
-		(at 342.9 173.99 0)
+		(at 332.74 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6440,7 +6272,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 273.05 34.29 0)
+			(at 292.1 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8633,99 +8465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 334.01 168.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a0877cb-c3b6-45d4-bdf6-d1c7f42ab1f0")
-		(property "Reference" "J303"
-			(at 332.74 165.608 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 339.09 170.1799 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 334.01 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 334.01 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 334.01 168.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "064e7986-46b1-4b6b-bbb2-b5c1b75d0c15")
-		)
-		(pin "2"
-			(uuid "1a8518ea-a3d9-4504-ba52-7f057a731c24")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/3e7f63a5-e260-45cd-8765-977a86943ed8"
-					(reference "J303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 115.57 144.78 270)
 		(unit 1)
@@ -9641,6 +9380,7 @@
 		)
 		(property "Value" "100kΩ 1%"
 			(at 293.37 173.736 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12681,6 +12421,7 @@
 		)
 		(property "Value" "100kΩ 1%"
 			(at 293.37 171.196 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
