@@ -10733,7 +10733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "REF102CU"
+		(property "Value" "REF102AU"
 			(at 101.2033 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -4090,7 +4090,7 @@
 				)
 			)
 		)
-		(property "Value" "1MΩ 5%"
+		(property "Value" "5MΩ 5%"
 			(at 156.972 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +8207,7 @@
 				)
 			)
 		)
-		(property "Value" "400pF 50V"
+		(property "Value" "470pF 50V"
 			(at 223.774 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)

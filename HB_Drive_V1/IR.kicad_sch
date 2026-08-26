@@ -4977,6 +4977,7 @@
 		)
 		(property "Value" "10kΩ 1%"
 			(at 129.794 101.6 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8654,6 +8655,7 @@
 		)
 		(property "Value" "10kΩ 1%"
 			(at 129.794 96.52 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11400,6 +11402,7 @@
 		)
 		(property "Value" "10kΩ 1%"
 			(at 129.794 99.06 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

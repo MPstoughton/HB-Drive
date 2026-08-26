@@ -816,7 +816,7 @@
 				(justify left)
 			)
 		)
-		(pin "D_Cmd" input
+		(pin "Duty" input
 			(at 101.6 76.2 180)
 			(uuid "b72ca84b-7724-41e9-934d-207ef4b5a955")
 			(effects
