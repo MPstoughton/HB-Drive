@@ -5274,6 +5274,12 @@
 		(uuid "6f0b98c4-f00c-44f7-ac81-c3cf2710eeb0")
 	)
 	(junction
+		(at 334.01 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "745b6e8c-382a-4a97-9f00-42a02afc44b9")
+	)
+	(junction
 		(at 257.81 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6305,16 +6311,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 104.14) (xy 334.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e51c808-94aa-42f9-83f5-f13bf2f21158")
-	)
-	(wire
-		(pts
 			(xy 127 67.31) (xy 143.51 67.31)
 		)
 		(stroke
@@ -6352,6 +6348,16 @@
 			(type default)
 		)
 		(uuid "9397375c-cf4d-40bd-923e-035ef5d74095")
+	)
+	(wire
+		(pts
+			(xy 334.01 109.22) (xy 334.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9602fd4d-44db-415b-b894-a5d5c08a0fa0")
 	)
 	(wire
 		(pts
@@ -11525,83 +11531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 334.01 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6949800e-6160-44a1-a7a5-06741df1c77b")
-		(property "Reference" "#PWR0537"
-			(at 334.01 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 336.296 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 334.01 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00e15586-c7ac-4a56-93f4-f18033dfbaf2")
-		)
-		(instances
-			(project "HB_Drive_V1"
-				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/affa1a72-7fee-4831-b027-79a553ce267b"
-					(reference "#PWR0537")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 293.37 71.12 0)
 		(mirror y)
@@ -14670,7 +14599,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e24209f0-a128-410a-a7df-20eb68175fc8")
 		(property "Reference" "#PWR0527"
 			(at 257.81 104.14 0)
@@ -14683,14 +14611,15 @@
 				)
 			)
 		)
-		(property "Value" "+9V"
-			(at 257.81 95.25 0)
+		(property "Value" "+5V"
+			(at 255.778 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
