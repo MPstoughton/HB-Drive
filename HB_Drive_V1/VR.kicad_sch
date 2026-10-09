@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "949bb793-f05a-43f6-9432-bfe0824194e6")
 	(paper "A3")
+	(title_block
+		(title "HB Drive V3")
+		(date "2026-09-08")
+		(company "UW Madison, WEMPEC")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL082"
 			(pin_names
@@ -2584,6 +2589,12 @@
 		(uuid "41f762b7-2a72-4743-b106-567d1e278156")
 	)
 	(junction
+		(at 317.5 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "453ea1c9-e5cd-4793-869b-f9f87d50832a")
+	)
+	(junction
 		(at 184.15 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2606,6 +2617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5553c82e-6f43-48f7-af94-395fd51bc715")
+	)
+	(junction
+		(at 298.45 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "579e7f01-10b7-4c3f-ab47-4aba37f6e8ac")
 	)
 	(junction
 		(at 204.47 87.63)
@@ -2953,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 81.28) (xy 307.34 81.28)
+			(xy 289.56 81.28) (xy 298.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3633,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 113.03) (xy 323.85 113.03)
+			(xy 307.34 113.03) (xy 317.5 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4303,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 81.28) (xy 307.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c068b3-82c5-4b11-be8e-ddb42743d63d")
+	)
+	(wire
+		(pts
 			(xy 154.94 171.45) (xy 157.48 171.45)
 		)
 		(stroke
@@ -4440,6 +4467,16 @@
 			(type default)
 		)
 		(uuid "dc096cc6-515d-49c2-9736-df745babd6b7")
+	)
+	(wire
+		(pts
+			(xy 317.5 113.03) (xy 323.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2d5196-777c-4238-bb2d-7001de39c9b0")
 	)
 	(wire
 		(pts
@@ -8811,6 +8848,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 317.5 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ad887ff-f1cc-4f50-aca5-08ac950875e5")
+		(property "Reference" "TP209"
+			(at 317.246 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 314.96 115.0621 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 312.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 317.5 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 317.5 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "953b446c-a36f-4b89-ad4d-9815fc5a1b7d")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/cbb6a335-cf9f-454a-a7da-871f74bddb32"
+					(reference "TP209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 100.33 130.81 0)
 		(unit 1)
@@ -10902,6 +11029,96 @@
 			(project "HB_Drive_V1"
 				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/cbb6a335-cf9f-454a-a7da-871f74bddb32"
 					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 298.45 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3157b24-f4d6-42cf-a335-6beea1a014b3")
+		(property "Reference" "TP208"
+			(at 298.196 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 295.91 83.3121 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 293.37 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 298.45 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 298.45 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2ea846a-4b62-44e8-8943-a9152ce35a97")
+		)
+		(instances
+			(project "HB_Drive_V1"
+				(path "/a9b54c89-4c8e-4c90-8a0d-ec2009e369b7/cbb6a335-cf9f-454a-a7da-871f74bddb32"
+					(reference "TP208")
 					(unit 1)
 				)
 			)

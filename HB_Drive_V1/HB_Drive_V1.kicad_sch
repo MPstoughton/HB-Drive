@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "a9b54c89-4c8e-4c90-8a0d-ec2009e369b7")
 	(paper "A4")
+	(title_block
+		(title "HB Drive V3")
+		(date "2026-09-08")
+		(company "UW Madison, WEMPEC")
+	)
 	(lib_symbols)
 	(wire
 		(pts
@@ -1062,4 +1067,24 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "HB_Drive_DrawingSheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBSCfUTADadWyAQlxsmHCQ5WsE9iJiZqcm/BSUXGHAP2Jd8kB0RALwI0FIASgBVAI83EP/H
+				Y3OUfa0n14/zHfcMVFqxP99Zkl/rGagl2082/JJ/AQAICEDRexitKCtOZTvneGDVGX/Nft1juKSU
+				iBlnX2zD7KMCICAIQyROVzkbKgT+29OIoLMjNZUyd21/ddA7Zr8Zc+917FiFOOxt7d7bb/98d1eE
+				c+2q//r3YS7GaM2e3V2fM1ILm41dmIVF2Z/rh1XV/tX7nOcPf265rqoh0ko0FuWEol0smYbzaDg0
+				CIpALWrRjlJilqIXVyrDNB6cLHO5aChCM/zrI+dsyv7XuTZ17IciEJ0tG6ZJO27bFiWiAPiLO7Lp
+				7BCDlaz6SwEBgWEqJsUQi8RMIKScM14SM8kkplvBDzvoZtKoSCgOznr1bRtmz4UVZRbBaBjvLWbK
+				KTvb7/65DA6pQadV/fXLuNPZwVqxZJVG5WQvnYe3TkxNk1lGAXag0USHGBoSEUmSJB1wRKTmyDbc
+				ROt80O/+GLIOvXLR7DGm3REmE+8KO2aYNRgksHbMKBDLzdUygFUuAjKiX4pxbop5Fx1LeOqr5PRh
+				sOe58AfJfJDBPYcs1ASWtgmA+AgMfYw728vPWSuH8xgXQ5k8LWCCsE/cFQQtAfI0EZpeSlNMlo5T
+				t/MB93OmLRzQzD9Pz+owQkdMvGhUsmYhj43lEvkaQE8t/eGBEM0h/UVjJe/OcYC8P+d52ECQCYQl
+				WnTmaw9Q29Tm0yQIaFaVpNSgrSa9kAeCOdE9K3yyxNgk0L/6NETFfHYaJHe26EZKC5LyG5FATvGI
+				YYkGbXq+RhzrA8FyEbeRiwb4Y9Cr|
+			)
+			(checksum "B515CD35CD4FAC14689C7CE4AC7D9023")
+		)
+	)
 )

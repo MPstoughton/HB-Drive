@@ -537,7 +537,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../HB_V2_Plots/",
+      "plot": "../../../Downloads/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -745,7 +745,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -788,7 +788,7 @@
         "uuid": "a9b54c89-4c8e-4c90-8a0d-ec2009e369b7"
       }
     ],
-    "used_designators": "TP522,R716-719,R1011,#PWR425-426,#PWR736-739,Q701-702",
+    "used_designators": "TP208-209,TP309-310,TP522,R716-719,R1011,#PWR425-426,#PWR736-739,Q701-702,C314",
     "variants": []
   },
   "sheets": [

@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "6abca5c8-df18-4caa-ac00-ea901708df6a")
 	(paper "A3")
+	(title_block
+		(title "HB Drive V3")
+		(date "2026-09-08")
+		(company "UW Madison, WEMPEC")
+	)
 	(lib_symbols
 		(symbol "74xx:74LS02"
 			(body_styles demorgan)
